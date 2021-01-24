@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExportRepresentationsAsImagesDialog">
+		<item value="JPG" key="ExportRepresentationsAsImagesDialog.imageFormat"/>
+		<list key="ExportRepresentationsAsImagesDialog.file">
+			<item value="E:\Documents\Workspace\TP_CLO2_UML\JeuDuMemory_UML"/>
+			<item value="E:\Documents\Workspace\TP_CLO2_UML\JeuDuMemory_UML\UML.jpg"/>
+		</list>
+	</section>
+</section>
