@@ -1,0 +1,1836 @@
+!SESSION 2021-01-08 12:43:37.454 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.add.import'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.organize.imports'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.open.hierarchy'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-08 12:43:45.766
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
+
+!ENTRY org.eclipse.jface 2 0 2021-01-08 12:43:47.191
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-08 12:43:47.191
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5118c7fb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@792b0cad,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:43:59.982
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.emf.compare.ide.ui.logicalmodel.view" id and the "Logical Model View" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-01-08 12:44:00.809
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-01-08 12:47:33.691 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_112
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.259
+!MESSAGE Removing part descriptor with the 'org.eclipse.buildship.ui.views.taskview' id and the 'Gradle Tasks' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.406
+!MESSAGE Removing part descriptor with the 'org.eclipse.buildship.ui.views.executionview' id and the 'Gradle Executions' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.406
+!MESSAGE Removing part descriptor with the 'org.eclipse.datatools.connectivity.DataSourceExplorerNavigator' id and the 'Data Source Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.422
+!MESSAGE Removing part descriptor with the 'org.eclipse.datatools.sqltools.plan.planView' id and the 'Execution Plan' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.422
+!MESSAGE Removing part descriptor with the 'org.eclipse.datatools.sqltools.result.resultView' id and the 'SQL Results' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.422
+!MESSAGE Removing part descriptor with the 'org.eclipse.eclemma.ui.CoverageView' id and the 'Coverage' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.422
+!MESSAGE Removing part descriptor with the 'org.eclipse.egit.ui.RepositoriesView' id and the 'Git Repositories' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.422
+!MESSAGE Removing part descriptor with the 'org.eclipse.egit.ui.StagingView' id and the 'Git Staging' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.422
+!MESSAGE Removing part descriptor with the 'org.eclipse.egit.ui.InteractiveRebaseView' id and the 'Git Interactive Rebase' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.422
+!MESSAGE Removing part descriptor with the 'org.eclipse.egit.ui.CompareTreeView' id and the 'Git Tree Compare' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.422
+!MESSAGE Removing part descriptor with the 'org.eclipse.egit.ui.ReflogView' id and the 'Git Reflog' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.422
+!MESSAGE Removing part descriptor with the 'org.eclipse.jpt.ui.jpaStructureView' id and the 'JPA Structure' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.422
+!MESSAGE Removing part descriptor with the 'org.eclipse.jpt.ui.jpaDetailsView' id and the 'JPA Details' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.422
+!MESSAGE Removing part descriptor with the 'org.eclipse.jst.jsf.ui.component.ComponentTreeView' id and the 'JSF Component Tree' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.422
+!MESSAGE Removing part descriptor with the 'org.eclipse.jst.jsf.ui.tagregistry.TagRegistryView' id and the 'Tag Registry' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.422
+!MESSAGE Removing part descriptor with the 'org.eclipse.jst.ws.jaxws.ui.views.AnnotationsView' id and the 'Annotation Properties' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.422
+!MESSAGE Removing part descriptor with the 'org.eclipse.m2e.core.views.MavenRepositoryView' id and the 'Maven Repositories' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.422
+!MESSAGE Removing part descriptor with the 'org.eclipse.m2e.core.views.MavenBuild' id and the 'Maven Workspace Build' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.422
+!MESSAGE Removing part descriptor with the 'org.eclipse.mylyn.commons.repositories.ui.navigator.Repositories' id and the 'Team Repositories' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.422
+!MESSAGE Removing part descriptor with the 'org.eclipse.mylyn.tasks.ui.views.tasks' id and the 'Task List' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.422
+!MESSAGE Removing part descriptor with the 'org.eclipse.mylyn.tasks.ui.views.repositories' id and the 'Task Repositories' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.422
+!MESSAGE Removing part descriptor with the 'org.eclipse.oomph.p2.ui.RepositoryExplorer' id and the 'Repository Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.422
+!MESSAGE Removing part descriptor with the 'org.eclipse.pde.api.tools.ui.views.apitooling.views.apitoolingview' id and the 'API Tools' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.422
+!MESSAGE Removing part descriptor with the 'org.eclipse.pde.runtime.RegistryBrowser' id and the 'Plug-in Registry' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.438
+!MESSAGE Removing part descriptor with the 'org.eclipse.pde.ui.FeaturesView' id and the 'Features' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.438
+!MESSAGE Removing part descriptor with the 'org.eclipse.tips.ide.tipPart' id and the 'Tip of the Day' description. Points to the invalid 'bundleclass://org.eclipse.tips.ide/org.eclipse.tips.ide.internal.TipPart' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.438
+!MESSAGE Removing part descriptor with the 'org.eclipse.tm.terminal.view.ui.TerminalsView' id and the 'Terminal' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.438
+!MESSAGE Removing part descriptor with the 'org.eclipse.tcf.te.ui.terminals.TerminalsView' id and the 'Terminals (Old)' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.438
+!MESSAGE Removing part descriptor with the 'org.eclipse.ui.views.minimap.MinimapView' id and the 'Minimap' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.438
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.common.snippets.internal.ui.SnippetsView' id and the 'Snippets' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.438
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.internet.monitor.view' id and the 'TCP/IP Monitor' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.438
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.jsdt.callhierarchy.view' id and the 'Call Hierarchy' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.438
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.jsdt.ui.SourceView' id and the 'Declaration' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.438
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.jsdt.ui.JavadocView' id and the 'Documentation' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.438
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.server.ui.ServersView' id and the 'Servers' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.438
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.xml.ui.views.annotations.XMLAnnotationsView' id and the 'Documentation' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.438
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.xml.ui.contentmodel.view' id and the 'Content Model' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.438
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.xml.views.XPathView' id and the 'XPath' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.438
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.xsl.jaxp.debug.ui.resultview' id and the 'Result' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.438
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.xsl.ui.view.outline' id and the 'Stylesheet Model' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.438
+!MESSAGE Removing part descriptor with the 'org.eclipse.ocl.examples.emf.validation.validity.ui.validity' id and the 'ValidityView' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.438
+!MESSAGE Removing part descriptor with the 'org.eclipse.acceleo.ide.ui.views.proposals.ProposalsBrowser' id and the 'Generation Patterns' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.438
+!MESSAGE Removing part descriptor with the 'org.eclipse.acceleo.ide.ui.views.overrides.OverridesBrowser' id and the 'Overrides' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.453
+!MESSAGE Removing part descriptor with the 'org.eclipse.gmf.bridge.ui.dashboard.DashboardPart' id and the 'GMF Dashboard' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.453
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.ecoretools.internal.views.EClassHierarchyView' id and the 'EClass Information' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.453
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.ecoretools.internal.views.EReferencesView' id and the 'References' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.453
+!MESSAGE Removing part descriptor with the 'org.eclipse.m2m.atl.profiler.ui.executionviewer.view.ExecutionView' id and the 'ATL Profiler - Execution View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.453
+!MESSAGE Removing part descriptor with the 'org.eclipse.m2m.atl.profiler.ui.profilingdatatable.ProfilingDataTableView' id and the 'ATL Profiler - Rules View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.453
+!MESSAGE Removing part descriptor with the 'org.eclipse.fx.ide.ui.preview' id and the 'JavaFX Preview' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.453
+!MESSAGE Removing part descriptor with the 'org.eclipse.xtend.ide.view.DerivedSourceView' id and the 'Generated Code' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.453
+!MESSAGE Removing part descriptor with the 'org.eclipse.xtext.ui.XtextCallHierarchy' id and the 'Call Hierarchy' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-08 12:48:18.453
+!MESSAGE Removing part descriptor with the 'org.eclipse.xtext.xtext.ui.graph.view' id and the 'Xtext Syntax Graph' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.638
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.638
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.638
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.638
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.638
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.638
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.638
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.638
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.638
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.653
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.669
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.684
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.700
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.716
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.731
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.747
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.747
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.747
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.747
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.747
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.747
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.747
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.747
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.747
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.747
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:01.747
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:19.728
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2021-01-08 13:17:19.728
+!MESSAGE This kind of diagram element (org.eclipse.sirius.diagram.business.internal.metamodel.spec.DNodeListElementSpec) is not yet managed by the LayoutDataManager.
+!SESSION 2021-01-15 23:48:43.438 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data E:\Documents\Workspace\TP_CLO_UML -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 0 2021-01-15 23:48:50.244
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.244
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.244
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.add.import'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.organize.imports'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.245
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.246
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.open.hierarchy'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.246
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.246
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.246
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.246
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.246
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.246
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.246
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-15 23:48:50.246
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
+
+!ENTRY org.eclipse.jface 2 0 2021-01-15 23:48:51.655
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-15 23:48:51.655
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@15961527,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@22b00077,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.runtime 4 0 2021-01-15 23:48:56.114
+!MESSAGE Invalid input url:platform:/plugin/org.eclipse.uml2.uml.editor/icons/full/obj16/UMLModelFile.gif
+!STACK 0
+java.io.IOException: Unable to resolve plug-in "org.eclipse.uml2.uml.editor".
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.parse(PlatformURLPluginConnection.java:64)
+	at org.eclipse.core.internal.runtime.FindSupport.find(FindSupport.java:293)
+	at org.eclipse.core.runtime.FileLocator.find(FileLocator.java:206)
+	at org.eclipse.jface.resource.URLImageDescriptor.getFilePath(URLImageDescriptor.java:228)
+	at org.eclipse.jface.resource.URLImageDescriptor.access$2(URLImageDescriptor.java:220)
+	at org.eclipse.jface.resource.URLImageDescriptor$URLImageFileNameProvider.getImagePath(URLImageDescriptor.java:57)
+	at org.eclipse.swt.internal.DPIUtil.validateAndGetImagePathAtZoom(DPIUtil.java:419)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:687)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:263)
+	at org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:227)
+	at org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:55)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:88)
+	at org.eclipse.jface.resource.ResourceManager.createImageWithDefault(ResourceManager.java:195)
+	at org.eclipse.jface.resource.ImageRegistry.get(ImageRegistry.java:206)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImageFromURI(SWTPartRenderer.java:219)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImage(SWTPartRenderer.java:229)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.createTab(StackRenderer.java:794)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.processContents(LazyStackRenderer.java:196)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:999)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:667)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:153)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.jface 4 0 2021-01-15 23:48:56.117
+!MESSAGE Unable to resolve plug-in "org.eclipse.uml2.uml.editor".
+!STACK 0
+java.io.IOException: Unable to resolve plug-in "org.eclipse.uml2.uml.editor".
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.parse(PlatformURLPluginConnection.java:64)
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.resolve(PlatformURLPluginConnection.java:73)
+	at org.eclipse.core.internal.boot.PlatformURLHandler.openConnection(PlatformURLHandler.java:69)
+	at org.eclipse.osgi.internal.url.URLStreamHandlerProxy.openConnection(URLStreamHandlerProxy.java:123)
+	at java.base/java.net.URL.openConnection(URL.java:1101)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.toFileURL(PlatformURLConverter.java:34)
+	at org.eclipse.core.runtime.FileLocator.toFileURL(FileLocator.java:261)
+	at org.eclipse.jface.resource.URLImageDescriptor.getFilePath(URLImageDescriptor.java:232)
+	at org.eclipse.jface.resource.URLImageDescriptor.access$2(URLImageDescriptor.java:220)
+	at org.eclipse.jface.resource.URLImageDescriptor$URLImageFileNameProvider.getImagePath(URLImageDescriptor.java:57)
+	at org.eclipse.swt.internal.DPIUtil.validateAndGetImagePathAtZoom(DPIUtil.java:419)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:687)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:263)
+	at org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:227)
+	at org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:55)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:88)
+	at org.eclipse.jface.resource.ResourceManager.createImageWithDefault(ResourceManager.java:195)
+	at org.eclipse.jface.resource.ImageRegistry.get(ImageRegistry.java:206)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImageFromURI(SWTPartRenderer.java:219)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImage(SWTPartRenderer.java:229)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.createTab(StackRenderer.java:794)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.processContents(LazyStackRenderer.java:196)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:999)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:667)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:153)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.core.runtime 4 0 2021-01-15 23:48:56.121
+!MESSAGE Invalid input url:platform:/plugin/org.eclipse.uml2.uml.editor/icons/full/obj16/UMLModelFile.gif
+!STACK 0
+java.io.IOException: Unable to resolve plug-in "org.eclipse.uml2.uml.editor".
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.parse(PlatformURLPluginConnection.java:64)
+	at org.eclipse.core.internal.runtime.FindSupport.find(FindSupport.java:293)
+	at org.eclipse.core.runtime.FileLocator.find(FileLocator.java:206)
+	at org.eclipse.jface.resource.URLImageDescriptor.getStream(URLImageDescriptor.java:155)
+	at org.eclipse.jface.resource.URLImageDescriptor.getImageData(URLImageDescriptor.java:123)
+	at org.eclipse.jface.resource.URLImageDescriptor.access$3(URLImageDescriptor.java:121)
+	at org.eclipse.jface.resource.URLImageDescriptor$URLImageDataProvider.getImageData(URLImageDescriptor.java:77)
+	at org.eclipse.swt.internal.DPIUtil.validateAndGetImageDataAtZoom(DPIUtil.java:404)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:732)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:271)
+	at org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:227)
+	at org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:55)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:88)
+	at org.eclipse.jface.resource.ResourceManager.createImageWithDefault(ResourceManager.java:195)
+	at org.eclipse.jface.resource.ImageRegistry.get(ImageRegistry.java:206)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImageFromURI(SWTPartRenderer.java:219)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImage(SWTPartRenderer.java:229)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.createTab(StackRenderer.java:794)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.processContents(LazyStackRenderer.java:196)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:999)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:667)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:153)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.jface 2 0 2021-01-15 23:48:56.124
+!MESSAGE The image could not be loaded: URLImageDescriptor(platform:/plugin/org.eclipse.uml2.uml.editor/icons/full/obj16/UMLModelFile.gif)
+!STACK 0
+org.eclipse.jface.resource.DeviceResourceException: Unable to create resource URLImageDescriptor(platform:/plugin/org.eclipse.uml2.uml.editor/icons/full/obj16/UMLModelFile.gif)
+	at org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:229)
+	at org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:55)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:88)
+	at org.eclipse.jface.resource.ResourceManager.createImageWithDefault(ResourceManager.java:195)
+	at org.eclipse.jface.resource.ImageRegistry.get(ImageRegistry.java:206)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImageFromURI(SWTPartRenderer.java:219)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImage(SWTPartRenderer.java:229)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.createTab(StackRenderer.java:794)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.processContents(LazyStackRenderer.java:196)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:999)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:148)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:667)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:736)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:153)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-15 23:48:56.846
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.emf.compare.ide.ui.logicalmodel.view" id and the "Logical Model View" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-01-15 23:48:57.714
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-01-24 00:57:48.641 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_112
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.012
+!MESSAGE Removing part descriptor with the 'org.eclipse.buildship.ui.views.taskview' id and the 'Gradle Tasks' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.073
+!MESSAGE Removing part descriptor with the 'org.eclipse.buildship.ui.views.executionview' id and the 'Gradle Executions' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.074
+!MESSAGE Removing part descriptor with the 'org.eclipse.datatools.connectivity.DataSourceExplorerNavigator' id and the 'Data Source Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.074
+!MESSAGE Removing part descriptor with the 'org.eclipse.datatools.sqltools.plan.planView' id and the 'Execution Plan' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.075
+!MESSAGE Removing part descriptor with the 'org.eclipse.datatools.sqltools.result.resultView' id and the 'SQL Results' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.075
+!MESSAGE Removing part descriptor with the 'org.eclipse.eclemma.ui.CoverageView' id and the 'Coverage' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.076
+!MESSAGE Removing part descriptor with the 'org.eclipse.egit.ui.RepositoriesView' id and the 'Git Repositories' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.076
+!MESSAGE Removing part descriptor with the 'org.eclipse.egit.ui.StagingView' id and the 'Git Staging' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.077
+!MESSAGE Removing part descriptor with the 'org.eclipse.egit.ui.InteractiveRebaseView' id and the 'Git Interactive Rebase' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.078
+!MESSAGE Removing part descriptor with the 'org.eclipse.egit.ui.CompareTreeView' id and the 'Git Tree Compare' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.078
+!MESSAGE Removing part descriptor with the 'org.eclipse.egit.ui.ReflogView' id and the 'Git Reflog' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.079
+!MESSAGE Removing part descriptor with the 'org.eclipse.jpt.ui.jpaStructureView' id and the 'JPA Structure' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.079
+!MESSAGE Removing part descriptor with the 'org.eclipse.jpt.ui.jpaDetailsView' id and the 'JPA Details' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.080
+!MESSAGE Removing part descriptor with the 'org.eclipse.jst.jsf.ui.component.ComponentTreeView' id and the 'JSF Component Tree' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.082
+!MESSAGE Removing part descriptor with the 'org.eclipse.jst.jsf.ui.tagregistry.TagRegistryView' id and the 'Tag Registry' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.083
+!MESSAGE Removing part descriptor with the 'org.eclipse.jst.ws.jaxws.ui.views.AnnotationsView' id and the 'Annotation Properties' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.084
+!MESSAGE Removing part descriptor with the 'org.eclipse.m2e.core.views.MavenRepositoryView' id and the 'Maven Repositories' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.087
+!MESSAGE Removing part descriptor with the 'org.eclipse.m2e.core.views.MavenBuild' id and the 'Maven Workspace Build' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.088
+!MESSAGE Removing part descriptor with the 'org.eclipse.mylyn.commons.repositories.ui.navigator.Repositories' id and the 'Team Repositories' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.088
+!MESSAGE Removing part descriptor with the 'org.eclipse.mylyn.tasks.ui.views.tasks' id and the 'Task List' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.089
+!MESSAGE Removing part descriptor with the 'org.eclipse.mylyn.tasks.ui.views.repositories' id and the 'Task Repositories' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.090
+!MESSAGE Removing part descriptor with the 'org.eclipse.oomph.p2.ui.RepositoryExplorer' id and the 'Repository Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.091
+!MESSAGE Removing part descriptor with the 'org.eclipse.pde.api.tools.ui.views.apitooling.views.apitoolingview' id and the 'API Tools' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.091
+!MESSAGE Removing part descriptor with the 'org.eclipse.pde.runtime.RegistryBrowser' id and the 'Plug-in Registry' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.092
+!MESSAGE Removing part descriptor with the 'org.eclipse.pde.ui.FeaturesView' id and the 'Features' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.093
+!MESSAGE Removing part descriptor with the 'org.eclipse.tips.ide.tipPart' id and the 'Tip of the Day' description. Points to the invalid 'bundleclass://org.eclipse.tips.ide/org.eclipse.tips.ide.internal.TipPart' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.093
+!MESSAGE Removing part descriptor with the 'org.eclipse.tm.terminal.view.ui.TerminalsView' id and the 'Terminal' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.094
+!MESSAGE Removing part descriptor with the 'org.eclipse.tcf.te.ui.terminals.TerminalsView' id and the 'Terminals (Old)' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.094
+!MESSAGE Removing part descriptor with the 'org.eclipse.ui.views.minimap.MinimapView' id and the 'Minimap' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.095
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.common.snippets.internal.ui.SnippetsView' id and the 'Snippets' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.096
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.internet.monitor.view' id and the 'TCP/IP Monitor' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.096
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.jsdt.callhierarchy.view' id and the 'Call Hierarchy' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.097
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.jsdt.ui.SourceView' id and the 'Declaration' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.098
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.jsdt.ui.JavadocView' id and the 'Documentation' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.099
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.server.ui.ServersView' id and the 'Servers' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.100
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.xml.ui.views.annotations.XMLAnnotationsView' id and the 'Documentation' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.101
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.xml.ui.contentmodel.view' id and the 'Content Model' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.102
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.xml.views.XPathView' id and the 'XPath' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.102
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.xsl.jaxp.debug.ui.resultview' id and the 'Result' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.103
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.xsl.ui.view.outline' id and the 'Stylesheet Model' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.104
+!MESSAGE Removing part descriptor with the 'org.eclipse.ocl.examples.emf.validation.validity.ui.validity' id and the 'ValidityView' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.104
+!MESSAGE Removing part descriptor with the 'org.eclipse.acceleo.ide.ui.views.proposals.ProposalsBrowser' id and the 'Generation Patterns' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.105
+!MESSAGE Removing part descriptor with the 'org.eclipse.acceleo.ide.ui.views.overrides.OverridesBrowser' id and the 'Overrides' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.106
+!MESSAGE Removing part descriptor with the 'org.eclipse.gmf.bridge.ui.dashboard.DashboardPart' id and the 'GMF Dashboard' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.106
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.ecoretools.internal.views.EClassHierarchyView' id and the 'EClass Information' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.107
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.ecoretools.internal.views.EReferencesView' id and the 'References' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.107
+!MESSAGE Removing part descriptor with the 'org.eclipse.m2m.atl.profiler.ui.executionviewer.view.ExecutionView' id and the 'ATL Profiler - Execution View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.108
+!MESSAGE Removing part descriptor with the 'org.eclipse.m2m.atl.profiler.ui.profilingdatatable.ProfilingDataTableView' id and the 'ATL Profiler - Rules View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.109
+!MESSAGE Removing part descriptor with the 'org.eclipse.fx.ide.ui.preview' id and the 'JavaFX Preview' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.109
+!MESSAGE Removing part descriptor with the 'org.eclipse.xtend.ide.view.DerivedSourceView' id and the 'Generated Code' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.110
+!MESSAGE Removing part descriptor with the 'org.eclipse.xtext.ui.XtextCallHierarchy' id and the 'Call Hierarchy' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-01-24 00:58:28.111
+!MESSAGE Removing part descriptor with the 'org.eclipse.xtext.xtext.ui.graph.view' id and the 'Xtext Syntax Graph' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.

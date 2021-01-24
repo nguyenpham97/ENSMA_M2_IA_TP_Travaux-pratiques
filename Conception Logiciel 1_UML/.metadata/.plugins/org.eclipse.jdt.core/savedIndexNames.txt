@@ -1,0 +1,2 @@
+INDEX VERSION 1.130+E:\Documents\Workspace\0_Travaux Pratiques\TP_CLO_UML\.metadata\.plugins\org.eclipse.jdt.core
+3892438307.index
