@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.sun.glass.ui.Application"/>
+    <fullyQualifiedTypeName name="com.sun.prism.Image"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.AgentCase.automate.AbstractEtatAdapter"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.AgentCase.automate.EtatVide"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.AgentCase.automate.EtatCroix"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.AgentCase.automate.EtatRond"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.AgentPlateau.IPlateauPresentation"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.ComboBox"/>
+    <fullyQualifiedTypeName name="com.sun.javafx.logging.Logger"/>
+    <fullyQualifiedTypeName name="javafx.geometry.Orientation"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.draftTicTacToe"/>
+    <fullyQualifiedTypeName name="javafx.scene.layout.HBox"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.TextField"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.Button"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.AgentCase.automate.IEtat"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javafx.scene.image.Image"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="javafx.application.Application"/>
+    <fullyQualifiedTypeName name="javafx.stage.Stage"/>
+    <fullyQualifiedTypeName name="javafx.scene.Scene"/>
+    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="javafx.event.ActionEvent"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.AgentCase.automate.CaseTransitionException"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.AgentCase.CaseModele"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.AgentCase.CasePresentation"/>
+    <fullyQualifiedTypeName name="javafx.scene.image.ImageView"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.AgentCase.ICasePresentation"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.AgentCase.CaseVue"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.JeuMemoryMVPtest"/>
+    <fullyQualifiedTypeName name="javafx.scene.layout.TilePane"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.AgentPlateau.PlateauModele"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.AgentPlateau.PlateauVue"/>
+    <fullyQualifiedTypeName name="javafx.scene.layout.FlowPane"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.JeuMemoryModele"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.JeuMemoryVue"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.JeuMemoryPresent"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.AgentPlateau.PlateauPresentation"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.JeuMemoryMVPtestPlateau"/>
+    <fullyQualifiedTypeName name="javafx.scene.layout.VBox"/>
+    <fullyQualifiedTypeName name="javafx.geometry.Pos"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+</qualifiedTypeNameHistroy>
