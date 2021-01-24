@@ -1,0 +1,79 @@
+package fr.ensma.a3.ia.exempledao.business;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.logging.Logger;
+import java.util.Optional;
+
+import fr.ensma.a3.ia.exempledao.business.api.ICarnetAdresses;
+import fr.ensma.a3.ia.exempledao.dao.AdressePoiDAO;
+import fr.ensma.a3.ia.exempledao.dao.IDao;
+import fr.ensma.a3.ia.exempledao.dao.PersonnePoiDAO;
+import fr.ensma.a3.ia.exempledao.dao.entity.AdresseEntity;
+import fr.ensma.a3.ia.exempledao.dao.entity.PersonneEntity;
+
+public class CarnetAdresses implements ICarnetAdresses {
+	
+	private static Logger LOGGER = Logger.getLogger(CarnetAdresses.class.getName());
+	
+	
+	/*
+	public void ajouter(PersonneEntity p) {
+		PersonnePoiDAO pDAO = new PersonnePoiDAO();
+		pDAO.create(p);
+	}
+	
+	public List<PersonneEntity> liste(PersonnePoiDAO adrdao) {
+		return adrdao.getAll();
+	}
+	
+	public Optional<PersonneEntity> rechercher(String nom, String prenom, PersonnePoiDAO adrdao) {
+		List<PersonneEntity> list = this.liste();
+		for(int i = 0; i < list.size(); i++) {
+			if((nom.compareTo(list.get(i).getNom()) == 0)
+				&&(prenom.compareTo(list.get(i).getPrenom()) == 0)) {
+				Optional<PersonneEntity> pOptional = adrdao.getByValue(list.get(i));
+				return pOptional;
+			} else {
+				LOGGER.info("Cette personne n'existe pas ...");
+				return Optional.empty();
+			}
+		}
+	} */
+	@Overrride
+	public void ajouter(final String n, final String pr, final int noR, 
+			final String nR, final String nV, final int cp) {
+		IDao<PersonneEntity> perdao = new PersonnePoiDAO();
+    	AdresseEntity adrajout = new AdresseEntity();
+    	adrajout.setNumRue(noR);
+    	adrajout.setNomRue(nR);
+    	adrajout.setCodePostal(cp);
+    	adrajout.setNomVille(nV);
+    	PersonneEntity perajout = new PersonneEntity();
+    	perajout.setNom(n);
+    	perajout.setPrenom(pr);
+    	perajout.setAdr(adrajout);
+    	
+    	perdao.create(perajout);
+	}
+	
+	public void liste() {
+		IDao<PersonneEntity> perdao = new PersonnePoiDAO();
+    	List<PersonneEntity> allper = perdao.getAll();
+    	for(PersonneEntity per : allper) {
+    		System.out.println(per);
+    	}
+	}
+	
+	public void rechercher(final String n, final String pr) {
+		IDao<PersonneEntity> perdao = new PersonnePoiDAO();
+		PersonneEntity percherche = new PersonneEntity();
+		percherche.setNom(n);
+		percherche.setPrenom(pr);
+    	Optional<PersonneEntity> res = perdao.getByValue(percherche); 
+    	if(res.isPresent()) {
+    		System.out.println(res.get());
+    	}
+	}
+	
+}
