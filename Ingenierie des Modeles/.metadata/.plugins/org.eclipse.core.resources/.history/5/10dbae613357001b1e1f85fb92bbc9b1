@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robotnxt:Choreography
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:robotnxt="http://www.ensma.fr/tpidm/robotnxt/0.0.1"
+    xsi:schemaLocation="http://www.ensma.fr/tpidm/robotnxt/0.0.1 choreography.ecore">
+  <instructions
+      xsi:type="robotnxt:PenDown"/>
+  <instructions
+      xsi:type="robotnxt:GoForward"
+      distance="50"/>
+  <instructions
+      xsi:type="robotnxt:TurnRight"
+      angle="90"/>
+</robotnxt:Choreography>

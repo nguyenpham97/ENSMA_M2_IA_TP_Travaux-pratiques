@@ -1,0 +1,119 @@
+[comment encoding = UTF-8 /]
+[module generate('http://www.ensma.fr/tpidm/robotnxt/0.0.1')]
+
+
+[template public generateCode(element : Choreography)]
+
+[comment @main /]
+[file ('resultat'.concat('.nxc'), false, 'UTF-8')]
+
+/**
+ * Author : Y&Y
+ */
+
+#include "NXCDefs.h"
+
+// Correponds to D/d
+#define ANGLE_FACTOR 8
+
+// The Motors connections
+#define RIGHT_MOTOR OUT_A
+#define LEFT_MOTOR OUT_B
+#define PEN_MOTOR OUT_C
+
+// define step lenght in wheel rotation (degree)
+#define STEP 50
+
+// define the angle of which the pen motor has to move
+#define PEN_ANGLE 45
+
+// The motor speed to use (not two fast to avoid drifting)
+#define SPEED 50
+
+/**
+ * The Robot will move straight forward for d steps
+ */
+sub forward(int d)
+{
+  int angle = d * STEP;
+  OnFwd(LEFT_MOTOR, SPEED);
+  OnFwd(RIGHT_MOTOR, SPEED);
+  Wait(angle);
+  Off(MOVE_MOTORS);
+}
+
+sub backward(int d)
+{
+  int angle = d * STEP;
+  OnRev(LEFT_MOTOR, SPEED);
+  OnRev(RIGHT_MOTOR, SPEED);
+  Wait(angle);
+  Off(MOVE_MOTORS);
+}
+
+/**
+ * The Robot will turn right by n degree
+ */
+sub turn_right(int n)
+{
+  OnRev(RIGHT_MOTOR, SPEED);
+  OnFwd(LEFT_MOTOR, SPEED);
+  Wait((-n)*ANGLE_FACTOR);
+  Off(MOVE_MOTORS);
+}
+
+/**
+ * The Robot will turn left by n degree
+ */
+sub turn_left(int n)
+{
+  OnRev(LEFT_MOTOR, SPEED);
+  OnFwd(RIGHT_MOTOR, SPEED);
+  Wait((n)*ANGLE_FACTOR);
+  Off(MOVE_MOTORS);
+}
+
+/**
+ * The Pen goes up
+ */
+sub penUp()
+{
+ RotateMotor(PEN_MOTOR, SPEED, -PEN_ANGLE);
+}
+
+/**
+ * The Pen goes down
+ */
+sub penDown()
+{
+ RotateMotor(PEN_MOTOR, SPEED, PEN_ANGLE);
+}
+/************************************************************/
+/*  END OF THE API, THE COMPILED CODE GOES BELOW THIS LINE  */
+/************************************************************/
+
+task main()
+{
+
+[getChoreographyContent(element.oclAsType(Choreography))/]
+
+} // fin main
+
+[/file]	
+
+[/template]
+
+[template private getChoreographyContent(element : Choreography)]
+[for (currentInstruction : Instruction | element.instructions)]
+	[if(currentInstruction.oclIsTypeOf(PenUp))]
+		penUp();
+	[/if]
+	
+	/* A completer */
+		/*content of the sub Choreography*/
+		[getChoreographyContent(currentInstruction.oclAsType(Choreography))/]
+		/*end of the content of the sub Choreography*/
+	[/if]
+[/if]
+[/for]
+[/template]

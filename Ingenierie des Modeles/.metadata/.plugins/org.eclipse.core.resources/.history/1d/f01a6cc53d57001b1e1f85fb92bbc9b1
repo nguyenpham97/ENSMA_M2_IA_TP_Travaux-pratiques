@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:properties="http://www.eclipse.org/sirius/properties/1.0.0" xmlns:properties-ext-widgets-reference="http://www.eclipse.org/sirius/properties/1.0.0/ext/widgets/reference" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="choreography" version="12.0.0.2017041100">
+  <ownedViewpoints name="RobotNXT" modelFileExtension="robotnxt">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Choreography Diagram" initialisation="true" domainClass="robotnxt.Choreography" enablePopupBars="true">
+      <metamodel href="../../fr.ensma.idm.choreography/model/choreography.ecore#/"/>
+      <layout xsi:type="description_1:CompositeLayout" direction="LeftToRight"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="CD_GoForward" semanticCandidatesExpression="feature:instructions" domainClass="robotnxt.GoForward">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.distance+' cm'" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.ensma.idm.choreography.design/description/images/GoForward.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="CD_GoBackward" semanticCandidatesExpression="feature:instructions" domainClass="robotnxt.GoBackward">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.distance+' cm'" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.ensma.idm.choreography.design/description/images/GoForward.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="CD_TurnRight" semanticCandidatesExpression="feature:instructions" domainClass="robotnxt.TurnRight">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.angle+'°'" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.ensma.idm.choreography.design/description/images/TurnRight.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="CD_PenUp" semanticCandidatesExpression="feature:instructions" domainClass="robotnxt.PenUp">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.ensma.idm.choreography.design/description/images/GoForward.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="CD_PenDown" semanticCandidatesExpression="feature:instructions" domainClass="robotnxt.PenDown">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.ensma.idm.choreography.design/description/images/GoForward.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="CD_Grab" semanticCandidatesExpression="feature:instructions" domainClass="robotnxt.Grab">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.ensma.idm.choreography.design/description/images/Grab.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="CD_Release" semanticCandidatesExpression="feature:instructions" domainClass="robotnxt.Release">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.ensma.idm.choreography.design/description/images/Release.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="CD_TurnLeft" semanticCandidatesExpression="feature:instructions" domainClass="robotnxt::TurnLeft">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:'-'+self.angle+'°'" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.ensma.idm.choreography.design/description/images/TurnLeft.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="CD_Next" sourceMapping="//@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@nodeMappings[name='CD_GoBackward'] //@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@nodeMappings[name='CD_GoForward'] //@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@nodeMappings[name='CD_TurnRight'] //@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@nodeMappings[name='CD_Grab'] //@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@nodeMappings[name='CD_PenDown'] //@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@nodeMappings[name='CD_PenUp'] //@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@nodeMappings[name='CD_Release'] //@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@containerMappings[name='CD_SubChoreography']" targetMapping="//@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@nodeMappings[name='CD_GoBackward'] //@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@nodeMappings[name='CD_GoForward'] //@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@nodeMappings[name='CD_TurnRight'] //@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@nodeMappings[name='CD_Grab'] //@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@nodeMappings[name='CD_PenDown'] //@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@nodeMappings[name='CD_PenUp'] //@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@nodeMappings[name='CD_Release'] //@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@containerMappings[name='CD_SubChoreography']" targetFinderExpression="service:getNextInstruction()">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="CD_SubChoreography" semanticCandidatesExpression="feature:instructions" doubleClickDescription="//@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='iddoubleclick']" domainClass="robotnxt.Choreography" childrenPresentation="List">
+          <subNodeMappings name="CD_SubInstruction" semanticCandidatesExpression="feature:instructions" domainClass="robotnxt::Instruction">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="service:getLabel()" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" backgroundColor="//@userColorsPalettes[name='RobotNXTPalette']/@entries[name='YassineColor']" foregroundColor="//@userColorsPalettes[name='RobotNXTPalette']/@entries[name='YassineColor']">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="ChoreographyDiagPalette">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Grab" nodeMappings="//@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@nodeMappings[name='CD_Grab']" extraMappings="//@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@containerMappings[name='CD_SubChoreography']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="robotnxt::Grab" referenceName="instructions"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Release" nodeMappings="//@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@nodeMappings[name='CD_Release']" extraMappings="//@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@containerMappings[name='CD_SubChoreography']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="robotnxt::Release" referenceName="instructions"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="GoForward" nodeMappings="//@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@nodeMappings[name='CD_GoForward']" extraMappings="//@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@containerMappings[name='CD_SubChoreography']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="robotnxt::GoForward" referenceName="instructions">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="distance" valueExpression="50"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="GoBackward" nodeMappings="//@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@nodeMappings[name='CD_GoBackward']" extraMappings="//@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@containerMappings[name='CD_SubChoreography']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="robotnxt::GoBackward" referenceName="instructions">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="distance" valueExpression="50"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="TurnRight" nodeMappings="//@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@nodeMappings[name='CD_TurnRight']" extraMappings="//@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@containerMappings[name='CD_SubChoreography']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="robotnxt::TurnRight" referenceName="instructions">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="angle" valueExpression="90"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="PenUp" nodeMappings="//@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@nodeMappings[name='CD_PenUp']" extraMappings="//@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@containerMappings[name='CD_SubChoreography']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="robotnxt::PenUp" referenceName="instructions"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="PenDown" nodeMappings="//@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@nodeMappings[name='CD_PenDown']" extraMappings="//@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@containerMappings[name='CD_SubChoreography']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="robotnxt::PenDown" referenceName="instructions"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Choreography" containerMappings="//@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@containerMappings[name='CD_SubChoreography']" extraMappings="//@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@containerMappings[name='CD_SubChoreography']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="robotnxt::Choreography" referenceName="instructions">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="newChoreography"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="iddoubleclick" mappings="//@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']/@defaultLayer/@containerMappings[name='CD_SubChoreography']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:Navigation" createIfNotExistent="true" diagramDescription="//@ownedViewpoints[name='RobotNXT']/@ownedRepresentations[name='Choreography%20Diagram']"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="fr.ensma.idm.choreography.design.Services"/>
+  </ownedViewpoints>
+  <userColorsPalettes name="RobotNXTPalette">
+    <entries xsi:type="description:UserFixedColor" red="186" green="223" blue="225" name="YassineColor"/>
+  </userColorsPalettes>
+  <extensions xsi:type="properties:ViewExtensionDescription" name="Properties">
+    <categories name="Default Category">
+      <pages name="Default Page" labelExpression="Robot NXT" domainClass="robotnxt::Instruction" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.1"/>
+      <groups name="Default Group" labelExpression="Group" semanticCandidateExpression="var:self"/>
+      <groups name="Choreography" labelExpression="Properties of the selected choreography" domainClass="robotnxt::Choreography" semanticCandidateExpression="var:self">
+        <controls xsi:type="properties:TextDescription" name="NameTxt" labelExpression="Name" valueExpression="feature:name">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:newValue"/>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+        <controls xsi:type="properties-ext-widgets-reference:ExtReferenceDescription" name="InstructionsRef" labelExpression="Sub-instructions" referenceNameExpression="instructions" referenceOwnerExpression="var:self"/>
+      </groups>
+    </categories>
+  </extensions>
+</description:Group>

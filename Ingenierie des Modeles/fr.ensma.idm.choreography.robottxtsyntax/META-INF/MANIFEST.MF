@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: fr.ensma.idm.choreography.robottxtsyntax
+Bundle-ManifestVersion: 2
+Bundle-Name: fr.ensma.idm.choreography.robottxtsyntax
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: fr.ensma.idm.choreography.robottxtsyntax; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: fr.ensma.idm.choreography,
+ org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.xtext.xbase.lib;bundle-version="2.14.0",
+ org.eclipse.xtext.util,
+ org.antlr.runtime;bundle-version="[3.2.0,3.2.1)"
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Export-Package: fr.ensma.idm.choreography.robottxtsyntax.scoping,
+ fr.ensma.idm.choreography.robottxtsyntax.parser.antlr,
+ fr.ensma.idm.choreography.robottxtsyntax.formatting2,
+ fr.ensma.idm.choreography.robottxtsyntax,
+ fr.ensma.idm.choreography.robottxtsyntax.generator,
+ fr.ensma.idm.choreography.robottxtsyntax.services,
+ fr.ensma.idm.choreography.robottxtsyntax.parser.antlr.internal,
+ fr.ensma.idm.choreography.robottxtsyntax.serializer,
+ fr.ensma.idm.choreography.robottxtsyntax.validation
+Import-Package: org.apache.log4j

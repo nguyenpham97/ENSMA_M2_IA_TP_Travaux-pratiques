@@ -1,0 +1,1483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mtl="http://www.eclipse.org/acceleo/mtl/3.0" xmlns:ocl.ecore="http://www.eclipse.org/ocl/1.1.0/Ecore">
+  <mtl:Module name="generate" nsURI="fr::ensma::idm::robotdsl::nxcgenerator::main::generate" startHeaderPosition="29" endHeaderPosition="164">
+    <input>
+      <takesTypesFrom href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#/"/>
+    </input>
+    <ownedModuleElement xsi:type="mtl:Template" name="generateCode" visibility="Public" main="true">
+      <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;"/>
+      <body xsi:type="mtl:FileBlock" openMode="OverWrite">
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;/**&#xA; * Author : Y&amp;Y&#xA; */&#xA;&#xA;#include &quot;NXCDefs.h&quot;&#xA;&#xA;// Correponds to D/d&#xA;#define ANGLE_FACTOR 8&#xA;&#xA;// The Motors connections&#xA;#define RIGHT_MOTOR OUT_A&#xA;#define LEFT_MOTOR OUT_B&#xA;#define PEN_MOTOR OUT_C&#xA;&#xA;// define step lenght in wheel rotation (degree)&#xA;#define STEP 50&#xA;&#xA;// define the angle of which the pen motor has to move&#xA;#define PEN_ANGLE 45&#xA;&#xA;// The motor speed to use (not two fast to avoid drifting)&#xA;#define SPEED 50&#xA;&#xA;/**&#xA; * The Robot will move straight forward for d steps&#xA; */&#xA;sub forward(int d)&#xA;{&#xA;  int angle = d * STEP;&#xA;  OnFwd(LEFT_MOTOR, SPEED);&#xA;  OnFwd(RIGHT_MOTOR, SPEED);&#xA;  Wait(angle);&#xA;  Off(MOVE_MOTORS);&#xA;}&#xA;&#xA;sub backward(int d)&#xA;{&#xA;  int angle = d * STEP;&#xA;  OnRev(LEFT_MOTOR, SPEED);&#xA;  OnRev(RIGHT_MOTOR, SPEED);&#xA;  Wait(angle);&#xA;  Off(MOVE_MOTORS);&#xA;}&#xA;&#xA;/**&#xA; * The Robot will turn right by n degree&#xA; */&#xA;sub turn_right(int n)&#xA;{&#xA;  OnRev(RIGHT_MOTOR, SPEED);&#xA;  OnFwd(LEFT_MOTOR, SPEED);&#xA;  Wait((-n)*ANGLE_FACTOR);&#xA;  Off(MOVE_MOTORS);&#xA;}&#xA;&#xA;/**&#xA; * The Robot will turn left by n degree&#xA; */&#xA;sub turn_left(int n)&#xA;{&#xA;  OnRev(LEFT_MOTOR, SPEED);&#xA;  OnFwd(RIGHT_MOTOR, SPEED);&#xA;  Wait((n)*ANGLE_FACTOR);&#xA;  Off(MOVE_MOTORS);&#xA;}&#xA;&#xA;/**&#xA; * The Pen goes up&#xA; */&#xA;sub penUp()&#xA;{&#xA; RotateMotor(PEN_MOTOR, SPEED, -PEN_ANGLE);&#xA;}&#xA;&#xA;/**&#xA; * The Pen goes down&#xA; */&#xA;sub penDown()&#xA;{&#xA; RotateMotor(PEN_MOTOR, SPEED, PEN_ANGLE);&#xA;}&#xA;/************************************************************/&#xA;/*  END OF THE API, THE COMPILED CODE GOES BELOW THIS LINE  */&#xA;/************************************************************/&#xA;&#xA;task main()&#xA;{&#xA;&#xA;&#x9;"/>
+        <body xsi:type="mtl:TemplateInvocation" definition="/0/getChoreographyContentnxc">
+          <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+          <argument xsi:type="ocl.ecore:OperationCallExp">
+            <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="element" referredVariable="/0/generateCode/element">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+            </source>
+            <argument xsi:type="ocl.ecore:TypeExp" eType="/8/Choreography">
+              <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+            </argument>
+            <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclAsType"/>
+          </argument>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;&#xA;} // fin main&#xA;&#xA;"/>
+        <fileUrl xsi:type="ocl.ecore:OperationCallExp">
+          <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+          <source xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="resultat">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+          </source>
+          <argument xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=".nxc">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+          </argument>
+          <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String_Class/concat"/>
+        </fileUrl>
+        <charset xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="UTF-8">
+          <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+        </charset>
+      </body>
+      <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;"/>
+      <body xsi:type="mtl:FileBlock" openMode="OverWrite">
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="from turtle import *&#xA;"/>
+        <body xsi:type="mtl:TemplateInvocation" definition="/0/getChoreographyContentPy">
+          <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+          <argument xsi:type="ocl.ecore:OperationCallExp">
+            <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="element" referredVariable="/0/generateCode/element">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+            </source>
+            <argument xsi:type="ocl.ecore:TypeExp" eType="/8/Choreography">
+              <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+            </argument>
+            <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclAsType"/>
+          </argument>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;done()&#xA;"/>
+        <fileUrl xsi:type="ocl.ecore:OperationCallExp">
+          <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+          <source xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="resultat">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+          </source>
+          <argument xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=".py">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+          </argument>
+          <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String_Class/concat"/>
+        </fileUrl>
+        <charset xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="UTF-8">
+          <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+        </charset>
+      </body>
+      <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;"/>
+      <parameter name="element">
+        <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+      </parameter>
+    </ownedModuleElement>
+    <ownedModuleElement xsi:type="mtl:Template" name="getChoreographyContentnxc">
+      <body xsi:type="mtl:ForBlock">
+        <body xsi:type="mtl:IfBlock">
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="penUp();&#xA;"/>
+          <ifExpr xsi:type="ocl.ecore:OperationCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Boolean"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentnxc/%/currentInstruction">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+            </source>
+            <argument xsi:type="ocl.ecore:TypeExp" eType="/8/PenUp">
+              <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//PenUp"/>
+            </argument>
+            <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclIsTypeOf"/>
+          </ifExpr>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#x9;&#xA;"/>
+        <body xsi:type="mtl:TemplateInvocation" definition="/0/getChoreographyContentnxc">
+          <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+          <argument xsi:type="ocl.ecore:OperationCallExp">
+            <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentnxc/%/currentInstruction">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+            </source>
+            <argument xsi:type="ocl.ecore:TypeExp" eType="/8/Choreography">
+              <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+            </argument>
+            <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclAsType"/>
+          </argument>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;&#xA;"/>
+        <body xsi:type="mtl:IfBlock">
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="penDown();&#xA;"/>
+          <ifExpr xsi:type="ocl.ecore:OperationCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Boolean"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentnxc/%/currentInstruction">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+            </source>
+            <argument xsi:type="ocl.ecore:TypeExp" eType="/8/PenDown">
+              <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//PenDown"/>
+            </argument>
+            <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclIsTypeOf"/>
+          </ifExpr>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;"/>
+        <body xsi:type="mtl:IfBlock">
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="forward("/>
+          <body xsi:type="ocl.ecore:PropertyCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Integer"/>
+            <source xsi:type="ocl.ecore:OperationCallExp">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//GoForward"/>
+              <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentnxc/%/currentInstruction">
+                <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+              </source>
+              <argument xsi:type="ocl.ecore:TypeExp" eType="/8/GoForward">
+                <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//GoForward"/>
+              </argument>
+              <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclAsType"/>
+            </source>
+            <referredProperty xsi:type="ecore:EAttribute" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//GoForward/distance"/>
+          </body>
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=");&#xA;"/>
+          <ifExpr xsi:type="ocl.ecore:OperationCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Boolean"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentnxc/%/currentInstruction">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+            </source>
+            <argument xsi:type="ocl.ecore:TypeExp" eType="/8/GoForward">
+              <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//GoForward"/>
+            </argument>
+            <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclIsTypeOf"/>
+          </ifExpr>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;"/>
+        <body xsi:type="mtl:IfBlock">
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="backward("/>
+          <body xsi:type="ocl.ecore:PropertyCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Integer"/>
+            <source xsi:type="ocl.ecore:OperationCallExp">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//GoBackward"/>
+              <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentnxc/%/currentInstruction">
+                <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+              </source>
+              <argument xsi:type="ocl.ecore:TypeExp" eType="/8/GoBackward">
+                <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//GoBackward"/>
+              </argument>
+              <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclAsType"/>
+            </source>
+            <referredProperty xsi:type="ecore:EAttribute" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//GoBackward/distance"/>
+          </body>
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=");&#xA;"/>
+          <ifExpr xsi:type="ocl.ecore:OperationCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Boolean"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentnxc/%/currentInstruction">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+            </source>
+            <argument xsi:type="ocl.ecore:TypeExp" eType="/8/GoBackward">
+              <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//GoBackward"/>
+            </argument>
+            <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclIsTypeOf"/>
+          </ifExpr>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;"/>
+        <body xsi:type="mtl:IfBlock">
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="turn_left("/>
+          <body xsi:type="ocl.ecore:PropertyCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Integer"/>
+            <source xsi:type="ocl.ecore:OperationCallExp">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//TurnLeft"/>
+              <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentnxc/%/currentInstruction">
+                <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+              </source>
+              <argument xsi:type="ocl.ecore:TypeExp" eType="/8/TurnLeft">
+                <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//TurnLeft"/>
+              </argument>
+              <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclAsType"/>
+            </source>
+            <referredProperty xsi:type="ecore:EAttribute" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//TurnLeft/angle"/>
+          </body>
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=");&#xA;"/>
+          <ifExpr xsi:type="ocl.ecore:OperationCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Boolean"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentnxc/%/currentInstruction">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+            </source>
+            <argument xsi:type="ocl.ecore:TypeExp" eType="/8/TurnLeft">
+              <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//TurnLeft"/>
+            </argument>
+            <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclIsTypeOf"/>
+          </ifExpr>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;"/>
+        <body xsi:type="mtl:IfBlock">
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="turn_right("/>
+          <body xsi:type="ocl.ecore:PropertyCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Integer"/>
+            <source xsi:type="ocl.ecore:OperationCallExp">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//TurnLeft"/>
+              <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentnxc/%/currentInstruction">
+                <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+              </source>
+              <argument xsi:type="ocl.ecore:TypeExp" eType="/8/TurnLeft">
+                <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//TurnLeft"/>
+              </argument>
+              <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclAsType"/>
+            </source>
+            <referredProperty xsi:type="ecore:EAttribute" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//TurnLeft/angle"/>
+          </body>
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=");&#xA;"/>
+          <ifExpr xsi:type="ocl.ecore:OperationCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Boolean"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentnxc/%/currentInstruction">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+            </source>
+            <argument xsi:type="ocl.ecore:TypeExp" eType="/8/TurnRight">
+              <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//TurnRight"/>
+            </argument>
+            <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclIsTypeOf"/>
+          </ifExpr>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#x9;&#xA;"/>
+        <loopVariable name="currentInstruction">
+          <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+        </loopVariable>
+        <iterSet xsi:type="ocl.ecore:PropertyCallExp" eType="/17/OrderedSet(Instruction)">
+          <source xsi:type="ocl.ecore:VariableExp" name="element" referredVariable="/0/getChoreographyContentnxc/element">
+            <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+          </source>
+          <referredProperty xsi:type="ecore:EReference" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography/instructions"/>
+        </iterSet>
+      </body>
+      <parameter name="element">
+        <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+      </parameter>
+    </ownedModuleElement>
+    <ownedModuleElement xsi:type="mtl:Template" name="getChoreographyContentPy">
+      <body xsi:type="mtl:ForBlock">
+        <body xsi:type="mtl:IfBlock">
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="penup()&#xA;"/>
+          <ifExpr xsi:type="ocl.ecore:OperationCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Boolean"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentPy/%/currentInstruction">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+            </source>
+            <argument xsi:type="ocl.ecore:TypeExp" eType="/8/PenUp">
+              <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//PenUp"/>
+            </argument>
+            <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclIsTypeOf"/>
+          </ifExpr>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;"/>
+        <body xsi:type="mtl:TemplateInvocation" definition="/0/getChoreographyContentPy">
+          <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+          <argument xsi:type="ocl.ecore:OperationCallExp">
+            <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentPy/%/currentInstruction">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+            </source>
+            <argument xsi:type="ocl.ecore:TypeExp" eType="/8/Choreography">
+              <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+            </argument>
+            <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclAsType"/>
+          </argument>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;&#xA;"/>
+        <body xsi:type="mtl:IfBlock">
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="down()&#xA;"/>
+          <ifExpr xsi:type="ocl.ecore:OperationCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Boolean"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentPy/%/currentInstruction">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+            </source>
+            <argument xsi:type="ocl.ecore:TypeExp" eType="/8/PenDown">
+              <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//PenDown"/>
+            </argument>
+            <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclIsTypeOf"/>
+          </ifExpr>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;"/>
+        <body xsi:type="mtl:IfBlock">
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="forward("/>
+          <body xsi:type="ocl.ecore:PropertyCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Integer"/>
+            <source xsi:type="ocl.ecore:OperationCallExp">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//GoForward"/>
+              <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentPy/%/currentInstruction">
+                <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+              </source>
+              <argument xsi:type="ocl.ecore:TypeExp" eType="/8/GoForward">
+                <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//GoForward"/>
+              </argument>
+              <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclAsType"/>
+            </source>
+            <referredProperty xsi:type="ecore:EAttribute" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//GoForward/distance"/>
+          </body>
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=")&#xA;"/>
+          <ifExpr xsi:type="ocl.ecore:OperationCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Boolean"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentPy/%/currentInstruction">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+            </source>
+            <argument xsi:type="ocl.ecore:TypeExp" eType="/8/GoForward">
+              <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//GoForward"/>
+            </argument>
+            <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclIsTypeOf"/>
+          </ifExpr>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;"/>
+        <body xsi:type="mtl:IfBlock">
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="backward("/>
+          <body xsi:type="ocl.ecore:PropertyCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Integer"/>
+            <source xsi:type="ocl.ecore:OperationCallExp">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//GoBackward"/>
+              <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentPy/%/currentInstruction">
+                <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+              </source>
+              <argument xsi:type="ocl.ecore:TypeExp" eType="/8/GoBackward">
+                <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//GoBackward"/>
+              </argument>
+              <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclAsType"/>
+            </source>
+            <referredProperty xsi:type="ecore:EAttribute" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//GoBackward/distance"/>
+          </body>
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=")&#xA;"/>
+          <ifExpr xsi:type="ocl.ecore:OperationCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Boolean"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentPy/%/currentInstruction">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+            </source>
+            <argument xsi:type="ocl.ecore:TypeExp" eType="/8/GoBackward">
+              <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//GoBackward"/>
+            </argument>
+            <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclIsTypeOf"/>
+          </ifExpr>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;"/>
+        <body xsi:type="mtl:IfBlock">
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="left("/>
+          <body xsi:type="ocl.ecore:PropertyCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Integer"/>
+            <source xsi:type="ocl.ecore:OperationCallExp">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//TurnLeft"/>
+              <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentPy/%/currentInstruction">
+                <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+              </source>
+              <argument xsi:type="ocl.ecore:TypeExp" eType="/8/TurnLeft">
+                <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//TurnLeft"/>
+              </argument>
+              <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclAsType"/>
+            </source>
+            <referredProperty xsi:type="ecore:EAttribute" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//TurnLeft/angle"/>
+          </body>
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=")&#xA;"/>
+          <ifExpr xsi:type="ocl.ecore:OperationCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Boolean"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentPy/%/currentInstruction">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+            </source>
+            <argument xsi:type="ocl.ecore:TypeExp" eType="/8/TurnLeft">
+              <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//TurnLeft"/>
+            </argument>
+            <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclIsTypeOf"/>
+          </ifExpr>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;"/>
+        <body xsi:type="mtl:IfBlock">
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="right("/>
+          <body xsi:type="ocl.ecore:PropertyCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Integer"/>
+            <source xsi:type="ocl.ecore:OperationCallExp">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//TurnLeft"/>
+              <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentPy/%/currentInstruction">
+                <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+              </source>
+              <argument xsi:type="ocl.ecore:TypeExp" eType="/8/TurnLeft">
+                <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//TurnLeft"/>
+              </argument>
+              <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclAsType"/>
+            </source>
+            <referredProperty xsi:type="ecore:EAttribute" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//TurnLeft/angle"/>
+          </body>
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=")&#xA;"/>
+          <ifExpr xsi:type="ocl.ecore:OperationCallExp">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Boolean"/>
+            <source xsi:type="ocl.ecore:VariableExp" name="currentInstruction" referredVariable="/0/getChoreographyContentPy/%/currentInstruction">
+              <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+            </source>
+            <argument xsi:type="ocl.ecore:TypeExp" eType="/8/TurnRight">
+              <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//TurnRight"/>
+            </argument>
+            <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny_Class/oclIsTypeOf"/>
+          </ifExpr>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#x9;&#xA;"/>
+        <loopVariable name="currentInstruction">
+          <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+        </loopVariable>
+        <iterSet xsi:type="ocl.ecore:PropertyCallExp" eType="/17/OrderedSet(Instruction)">
+          <source xsi:type="ocl.ecore:VariableExp" name="element" referredVariable="/0/getChoreographyContentPy/element">
+            <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+          </source>
+          <referredProperty xsi:type="ecore:EReference" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography/instructions"/>
+        </iterSet>
+      </body>
+      <parameter name="element">
+        <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+      </parameter>
+    </ownedModuleElement>
+  </mtl:Module>
+  <ecore:EPackage name="additions">
+    <eClassifiers xsi:type="ecore:EClass" name="oclstdlib_String_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="oclstdlib_Integer_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Integer"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="oclstdlib_Real_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Real"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ecore_EObject_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+      </eAnnotations>
+      <eOperations name="generateCode">
+        <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+          <contents xsi:type="ocl.ecore:Constraint"/>
+        </eAnnotations>
+        <eAnnotations source="MTL" references="/0/generateCode"/>
+        <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+        <eParameters name="element">
+          <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+        </eParameters>
+      </eOperations>
+      <eOperations name="getChoreographyContentnxc">
+        <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+          <contents xsi:type="ocl.ecore:Constraint"/>
+        </eAnnotations>
+        <eAnnotations source="MTL" references="/0/getChoreographyContentnxc"/>
+        <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+        <eParameters name="element">
+          <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+        </eParameters>
+      </eOperations>
+      <eOperations name="getChoreographyContentPy">
+        <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+          <contents xsi:type="ocl.ecore:Constraint"/>
+        </eAnnotations>
+        <eAnnotations source="MTL" references="/0/getChoreographyContentPy"/>
+        <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+        <eParameters name="element">
+          <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+        </eParameters>
+      </eOperations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="oclstdlib_OclAny_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="oclstdlib_Collection(T)_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Collection(T)"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="oclstdlib_Sequence(T)_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Sequence(T)"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="oclstdlib_OrderedSet(T)_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OrderedSet(T)"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="robotnxt_Choreography_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+      </eAnnotations>
+    </eClassifiers>
+  </ecore:EPackage>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+  </ocl.ecore:Variable>
+  <ecore:EPackage name="types">
+    <eClassifiers xsi:type="ocl.ecore:TypeType" name="Choreography">
+      <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ocl.ecore:TypeType" name="PenUp">
+      <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//PenUp"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ocl.ecore:TypeType" name="PenDown">
+      <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//PenDown"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ocl.ecore:TypeType" name="GoForward">
+      <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//GoForward"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ocl.ecore:TypeType" name="GoBackward">
+      <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//GoBackward"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ocl.ecore:TypeType" name="TurnLeft">
+      <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//TurnLeft"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ocl.ecore:TypeType" name="TurnRight">
+      <referredType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//TurnRight"/>
+    </eClassifiers>
+  </ecore:EPackage>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+  </ocl.ecore:Variable>
+  <ecore:EPackage name="collections">
+    <eClassifiers xsi:type="ocl.ecore:OrderedSetType" name="OrderedSet(Instruction)" instanceClassName="java.util.LinkedHashSet">
+      <elementType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+    </eClassifiers>
+  </ecore:EPackage>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="i">
+    <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Integer"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Instruction"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.ensma.fr/tpidm/robotnxt/0.0.1#//Choreography"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="i">
+    <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Integer"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+  </ocl.ecore:Variable>
+  <ecore:EAnnotation source="positions">
+    <eAnnotations source="positions.0" references="/0/generateCode">
+      <details key="start" value="93"/>
+      <details key="end" value="1962"/>
+      <details key="line" value="5"/>
+    </eAnnotations>
+    <eAnnotations source="positions.1" references="/0/generateCode/%">
+      <details key="start" value="148"/>
+      <details key="end" value="149"/>
+      <details key="line" value="6"/>
+    </eAnnotations>
+    <eAnnotations source="positions.2" references="/0/generateCode/%.1">
+      <details key="start" value="167"/>
+      <details key="end" value="1800"/>
+      <details key="line" value="8"/>
+    </eAnnotations>
+    <eAnnotations source="positions.3" references="/0/generateCode/%.1/%">
+      <details key="start" value="218"/>
+      <details key="end" value="1715"/>
+      <details key="line" value="9"/>
+    </eAnnotations>
+    <eAnnotations source="positions.4" references="/0/generateCode/%.1/%.1">
+      <details key="start" value="1716"/>
+      <details key="end" value="1774"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.5" references="/0/generateCode/%.1/%.1/%">
+      <details key="start" value="1742"/>
+      <details key="end" value="1773"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.6" references="/0/generateCode/%.1/%.1/%/element">
+      <details key="start" value="1742"/>
+      <details key="end" value="1749"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.7" references="/0/generateCode/%.1/%.1/%/%">
+      <details key="start" value="1760"/>
+      <details key="end" value="1772"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.8" references="/0/generateCode/%.1/%.2">
+      <details key="start" value="1776"/>
+      <details key="end" value="1793"/>
+      <details key="line" value="99"/>
+    </eAnnotations>
+    <eAnnotations source="positions.9" references="/0/generateCode/%.1/%.3">
+      <details key="start" value="174"/>
+      <details key="end" value="199"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.10" references="/0/generateCode/%.1/%.3/%">
+      <details key="start" value="174"/>
+      <details key="end" value="184"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.11" references="/0/generateCode/%.1/%.3/%.1">
+      <details key="start" value="192"/>
+      <details key="end" value="198"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.12" references="/0/generateCode/%.1/%.4">
+      <details key="start" value="208"/>
+      <details key="end" value="215"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.13" references="/0/generateCode/%.2">
+      <details key="start" value="1802"/>
+      <details key="end" value="1803"/>
+      <details key="line" value="102"/>
+    </eAnnotations>
+    <eAnnotations source="positions.14" references="/0/generateCode/%.3">
+      <details key="start" value="1803"/>
+      <details key="end" value="1949"/>
+      <details key="line" value="104"/>
+    </eAnnotations>
+    <eAnnotations source="positions.15" references="/0/generateCode/%.3/%">
+      <details key="start" value="1853"/>
+      <details key="end" value="1874"/>
+      <details key="line" value="105"/>
+    </eAnnotations>
+    <eAnnotations source="positions.16" references="/0/generateCode/%.3/%.1">
+      <details key="start" value="1875"/>
+      <details key="end" value="1932"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.17" references="/0/generateCode/%.3/%.1/%">
+      <details key="start" value="1900"/>
+      <details key="end" value="1931"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.18" references="/0/generateCode/%.3/%.1/%/element">
+      <details key="start" value="1900"/>
+      <details key="end" value="1907"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.19" references="/0/generateCode/%.3/%.1/%/%">
+      <details key="start" value="1918"/>
+      <details key="end" value="1930"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.20" references="/0/generateCode/%.3/%.2">
+      <details key="start" value="1934"/>
+      <details key="end" value="1942"/>
+      <details key="line" value="107"/>
+    </eAnnotations>
+    <eAnnotations source="positions.21" references="/0/generateCode/%.3/%.3">
+      <details key="start" value="1810"/>
+      <details key="end" value="1834"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.22" references="/0/generateCode/%.3/%.3/%">
+      <details key="start" value="1810"/>
+      <details key="end" value="1820"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.23" references="/0/generateCode/%.3/%.3/%.1">
+      <details key="start" value="1828"/>
+      <details key="end" value="1833"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.24" references="/0/generateCode/%.3/%.4">
+      <details key="start" value="1843"/>
+      <details key="end" value="1850"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.25" references="/0/generateCode/%.4">
+      <details key="start" value="1950"/>
+      <details key="end" value="1951"/>
+      <details key="line" value="109"/>
+    </eAnnotations>
+    <eAnnotations source="positions.26" references="/0/generateCode/element">
+      <details key="start" value="123"/>
+      <details key="end" value="145"/>
+      <details key="line" value="5"/>
+    </eAnnotations>
+    <eAnnotations source="positions.27" references="/0/getChoreographyContentnxc">
+      <details key="start" value="1964"/>
+      <details key="end" value="2794"/>
+      <details key="line" value="112"/>
+    </eAnnotations>
+    <eAnnotations source="positions.28" references="/0/getChoreographyContentnxc/%">
+      <details key="start" value="2033"/>
+      <details key="end" value="2782"/>
+      <details key="line" value="113"/>
+    </eAnnotations>
+    <eAnnotations source="positions.29" references="/0/getChoreographyContentnxc/%/%">
+      <details key="start" value="2098"/>
+      <details key="end" value="2157"/>
+      <details key="line" value="114"/>
+    </eAnnotations>
+    <eAnnotations source="positions.30" references="/0/getChoreographyContentnxc/%/%/%">
+      <details key="start" value="2142"/>
+      <details key="end" value="2151"/>
+      <details key="line" value="115"/>
+    </eAnnotations>
+    <eAnnotations source="positions.31" references="/0/getChoreographyContentnxc/%/%/%.1">
+      <details key="start" value="2101"/>
+      <details key="end" value="2140"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.32" references="/0/getChoreographyContentnxc/%/%/%.1/currentInstruction">
+      <details key="start" value="2102"/>
+      <details key="end" value="2120"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.33" references="/0/getChoreographyContentnxc/%/%/%.1/%">
+      <details key="start" value="2133"/>
+      <details key="end" value="2138"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.34" references="/0/getChoreographyContentnxc/%/%.1">
+      <details key="start" value="2158"/>
+      <details key="end" value="2160"/>
+      <details key="line" value="117"/>
+    </eAnnotations>
+    <eAnnotations source="positions.35" references="/0/getChoreographyContentnxc/%/%.2">
+      <details key="start" value="2161"/>
+      <details key="end" value="2230"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.36" references="/0/getChoreographyContentnxc/%/%.2/%">
+      <details key="start" value="2187"/>
+      <details key="end" value="2229"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.37" references="/0/getChoreographyContentnxc/%/%.2/%/currentInstruction">
+      <details key="start" value="2187"/>
+      <details key="end" value="2205"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.38" references="/0/getChoreographyContentnxc/%/%.2/%/%">
+      <details key="start" value="2216"/>
+      <details key="end" value="2228"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.39" references="/0/getChoreographyContentnxc/%/%.3">
+      <details key="start" value="2232"/>
+      <details key="end" value="2234"/>
+      <details key="line" value="119"/>
+    </eAnnotations>
+    <eAnnotations source="positions.40" references="/0/getChoreographyContentnxc/%/%.4">
+      <details key="start" value="2235"/>
+      <details key="end" value="2298"/>
+      <details key="line" value="120"/>
+    </eAnnotations>
+    <eAnnotations source="positions.41" references="/0/getChoreographyContentnxc/%/%.4/%">
+      <details key="start" value="2281"/>
+      <details key="end" value="2292"/>
+      <details key="line" value="121"/>
+    </eAnnotations>
+    <eAnnotations source="positions.42" references="/0/getChoreographyContentnxc/%/%.4/%.1">
+      <details key="start" value="2238"/>
+      <details key="end" value="2279"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.43" references="/0/getChoreographyContentnxc/%/%.4/%.1/currentInstruction">
+      <details key="start" value="2239"/>
+      <details key="end" value="2257"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.44" references="/0/getChoreographyContentnxc/%/%.4/%.1/%">
+      <details key="start" value="2270"/>
+      <details key="end" value="2277"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.45" references="/0/getChoreographyContentnxc/%/%.5">
+      <details key="start" value="2299"/>
+      <details key="end" value="2300"/>
+      <details key="line" value="123"/>
+    </eAnnotations>
+    <eAnnotations source="positions.46" references="/0/getChoreographyContentnxc/%/%.6">
+      <details key="start" value="2301"/>
+      <details key="end" value="2417"/>
+      <details key="line" value="124"/>
+    </eAnnotations>
+    <eAnnotations source="positions.47" references="/0/getChoreographyContentnxc/%/%.6/%">
+      <details key="start" value="2349"/>
+      <details key="end" value="2357"/>
+      <details key="line" value="125"/>
+    </eAnnotations>
+    <eAnnotations source="positions.48" references="/0/getChoreographyContentnxc/%/%.6/%.1">
+      <details key="start" value="2358"/>
+      <details key="end" value="2406"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.49" references="/0/getChoreographyContentnxc/%/%.6/%.1/%">
+      <details key="start" value="2358"/>
+      <details key="end" value="2397"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.50" references="/0/getChoreographyContentnxc/%/%.6/%.1/%/currentInstruction">
+      <details key="start" value="2358"/>
+      <details key="end" value="2376"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.51" references="/0/getChoreographyContentnxc/%/%.6/%.1/%/%">
+      <details key="start" value="2387"/>
+      <details key="end" value="2396"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.52" references="/0/getChoreographyContentnxc/%/%.6/%.2">
+      <details key="start" value="2408"/>
+      <details key="end" value="2411"/>
+      <details key="line" value="125"/>
+    </eAnnotations>
+    <eAnnotations source="positions.53" references="/0/getChoreographyContentnxc/%/%.6/%.3">
+      <details key="start" value="2304"/>
+      <details key="end" value="2347"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.54" references="/0/getChoreographyContentnxc/%/%.6/%.3/currentInstruction">
+      <details key="start" value="2305"/>
+      <details key="end" value="2323"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.55" references="/0/getChoreographyContentnxc/%/%.6/%.3/%">
+      <details key="start" value="2336"/>
+      <details key="end" value="2345"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.56" references="/0/getChoreographyContentnxc/%/%.7">
+      <details key="start" value="2418"/>
+      <details key="end" value="2419"/>
+      <details key="line" value="127"/>
+    </eAnnotations>
+    <eAnnotations source="positions.57" references="/0/getChoreographyContentnxc/%/%.8">
+      <details key="start" value="2420"/>
+      <details key="end" value="2539"/>
+      <details key="line" value="128"/>
+    </eAnnotations>
+    <eAnnotations source="positions.58" references="/0/getChoreographyContentnxc/%/%.8/%">
+      <details key="start" value="2469"/>
+      <details key="end" value="2478"/>
+      <details key="line" value="129"/>
+    </eAnnotations>
+    <eAnnotations source="positions.59" references="/0/getChoreographyContentnxc/%/%.8/%.1">
+      <details key="start" value="2479"/>
+      <details key="end" value="2528"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.60" references="/0/getChoreographyContentnxc/%/%.8/%.1/%">
+      <details key="start" value="2479"/>
+      <details key="end" value="2519"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.61" references="/0/getChoreographyContentnxc/%/%.8/%.1/%/currentInstruction">
+      <details key="start" value="2479"/>
+      <details key="end" value="2497"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.62" references="/0/getChoreographyContentnxc/%/%.8/%.1/%/%">
+      <details key="start" value="2508"/>
+      <details key="end" value="2518"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.63" references="/0/getChoreographyContentnxc/%/%.8/%.2">
+      <details key="start" value="2530"/>
+      <details key="end" value="2533"/>
+      <details key="line" value="129"/>
+    </eAnnotations>
+    <eAnnotations source="positions.64" references="/0/getChoreographyContentnxc/%/%.8/%.3">
+      <details key="start" value="2423"/>
+      <details key="end" value="2467"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.65" references="/0/getChoreographyContentnxc/%/%.8/%.3/currentInstruction">
+      <details key="start" value="2424"/>
+      <details key="end" value="2442"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.66" references="/0/getChoreographyContentnxc/%/%.8/%.3/%">
+      <details key="start" value="2455"/>
+      <details key="end" value="2465"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.67" references="/0/getChoreographyContentnxc/%/%.9">
+      <details key="start" value="2540"/>
+      <details key="end" value="2541"/>
+      <details key="line" value="131"/>
+    </eAnnotations>
+    <eAnnotations source="positions.68" references="/0/getChoreographyContentnxc/%/%.10">
+      <details key="start" value="2542"/>
+      <details key="end" value="2655"/>
+      <details key="line" value="132"/>
+    </eAnnotations>
+    <eAnnotations source="positions.69" references="/0/getChoreographyContentnxc/%/%.10/%">
+      <details key="start" value="2589"/>
+      <details key="end" value="2599"/>
+      <details key="line" value="133"/>
+    </eAnnotations>
+    <eAnnotations source="positions.70" references="/0/getChoreographyContentnxc/%/%.10/%.1">
+      <details key="start" value="2600"/>
+      <details key="end" value="2644"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.71" references="/0/getChoreographyContentnxc/%/%.10/%.1/%">
+      <details key="start" value="2600"/>
+      <details key="end" value="2638"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.72" references="/0/getChoreographyContentnxc/%/%.10/%.1/%/currentInstruction">
+      <details key="start" value="2600"/>
+      <details key="end" value="2618"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.73" references="/0/getChoreographyContentnxc/%/%.10/%.1/%/%">
+      <details key="start" value="2629"/>
+      <details key="end" value="2637"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.74" references="/0/getChoreographyContentnxc/%/%.10/%.2">
+      <details key="start" value="2646"/>
+      <details key="end" value="2649"/>
+      <details key="line" value="133"/>
+    </eAnnotations>
+    <eAnnotations source="positions.75" references="/0/getChoreographyContentnxc/%/%.10/%.3">
+      <details key="start" value="2545"/>
+      <details key="end" value="2587"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.76" references="/0/getChoreographyContentnxc/%/%.10/%.3/currentInstruction">
+      <details key="start" value="2546"/>
+      <details key="end" value="2564"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.77" references="/0/getChoreographyContentnxc/%/%.10/%.3/%">
+      <details key="start" value="2577"/>
+      <details key="end" value="2585"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.78" references="/0/getChoreographyContentnxc/%/%.11">
+      <details key="start" value="2656"/>
+      <details key="end" value="2657"/>
+      <details key="line" value="135"/>
+    </eAnnotations>
+    <eAnnotations source="positions.79" references="/0/getChoreographyContentnxc/%/%.12">
+      <details key="start" value="2658"/>
+      <details key="end" value="2773"/>
+      <details key="line" value="136"/>
+    </eAnnotations>
+    <eAnnotations source="positions.80" references="/0/getChoreographyContentnxc/%/%.12/%">
+      <details key="start" value="2706"/>
+      <details key="end" value="2717"/>
+      <details key="line" value="137"/>
+    </eAnnotations>
+    <eAnnotations source="positions.81" references="/0/getChoreographyContentnxc/%/%.12/%.1">
+      <details key="start" value="2718"/>
+      <details key="end" value="2762"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.82" references="/0/getChoreographyContentnxc/%/%.12/%.1/%">
+      <details key="start" value="2718"/>
+      <details key="end" value="2756"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.83" references="/0/getChoreographyContentnxc/%/%.12/%.1/%/currentInstruction">
+      <details key="start" value="2718"/>
+      <details key="end" value="2736"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.84" references="/0/getChoreographyContentnxc/%/%.12/%.1/%/%">
+      <details key="start" value="2747"/>
+      <details key="end" value="2755"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.85" references="/0/getChoreographyContentnxc/%/%.12/%.2">
+      <details key="start" value="2764"/>
+      <details key="end" value="2767"/>
+      <details key="line" value="137"/>
+    </eAnnotations>
+    <eAnnotations source="positions.86" references="/0/getChoreographyContentnxc/%/%.12/%.3">
+      <details key="start" value="2661"/>
+      <details key="end" value="2704"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.87" references="/0/getChoreographyContentnxc/%/%.12/%.3/currentInstruction">
+      <details key="start" value="2662"/>
+      <details key="end" value="2680"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.88" references="/0/getChoreographyContentnxc/%/%.12/%.3/%">
+      <details key="start" value="2693"/>
+      <details key="end" value="2702"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.89" references="/0/getChoreographyContentnxc/%/%.13">
+      <details key="start" value="2774"/>
+      <details key="end" value="2776"/>
+      <details key="line" value="139"/>
+    </eAnnotations>
+    <eAnnotations source="positions.90" references="/0/getChoreographyContentnxc/%/currentInstruction">
+      <details key="start" value="2039"/>
+      <details key="end" value="2071"/>
+      <details key="line" value="113"/>
+    </eAnnotations>
+    <eAnnotations source="positions.91" references="/0/getChoreographyContentnxc/%/%.14">
+      <details key="start" value="2074"/>
+      <details key="end" value="2094"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.92" references="/0/getChoreographyContentnxc/%/%.14/element">
+      <details key="start" value="2074"/>
+      <details key="end" value="2081"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.93" references="/0/getChoreographyContentnxc/element">
+      <details key="start" value="2008"/>
+      <details key="end" value="2030"/>
+      <details key="line" value="112"/>
+    </eAnnotations>
+    <eAnnotations source="positions.94" references="/0/getChoreographyContentPy">
+      <details key="start" value="2796"/>
+      <details key="end" value="3604"/>
+      <details key="line" value="143"/>
+    </eAnnotations>
+    <eAnnotations source="positions.95" references="/0/getChoreographyContentPy/%">
+      <details key="start" value="2864"/>
+      <details key="end" value="3592"/>
+      <details key="line" value="144"/>
+    </eAnnotations>
+    <eAnnotations source="positions.96" references="/0/getChoreographyContentPy/%/%">
+      <details key="start" value="2929"/>
+      <details key="end" value="2987"/>
+      <details key="line" value="145"/>
+    </eAnnotations>
+    <eAnnotations source="positions.97" references="/0/getChoreographyContentPy/%/%/%">
+      <details key="start" value="2973"/>
+      <details key="end" value="2981"/>
+      <details key="line" value="146"/>
+    </eAnnotations>
+    <eAnnotations source="positions.98" references="/0/getChoreographyContentPy/%/%/%.1">
+      <details key="start" value="2932"/>
+      <details key="end" value="2971"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.99" references="/0/getChoreographyContentPy/%/%/%.1/currentInstruction">
+      <details key="start" value="2933"/>
+      <details key="end" value="2951"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.100" references="/0/getChoreographyContentPy/%/%/%.1/%">
+      <details key="start" value="2964"/>
+      <details key="end" value="2969"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.101" references="/0/getChoreographyContentPy/%/%.1">
+      <details key="start" value="2988"/>
+      <details key="end" value="2989"/>
+      <details key="line" value="148"/>
+    </eAnnotations>
+    <eAnnotations source="positions.102" references="/0/getChoreographyContentPy/%/%.2">
+      <details key="start" value="2990"/>
+      <details key="end" value="3058"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.103" references="/0/getChoreographyContentPy/%/%.2/%">
+      <details key="start" value="3015"/>
+      <details key="end" value="3057"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.104" references="/0/getChoreographyContentPy/%/%.2/%/currentInstruction">
+      <details key="start" value="3015"/>
+      <details key="end" value="3033"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.105" references="/0/getChoreographyContentPy/%/%.2/%/%">
+      <details key="start" value="3044"/>
+      <details key="end" value="3056"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.106" references="/0/getChoreographyContentPy/%/%.3">
+      <details key="start" value="3060"/>
+      <details key="end" value="3062"/>
+      <details key="line" value="150"/>
+    </eAnnotations>
+    <eAnnotations source="positions.107" references="/0/getChoreographyContentPy/%/%.4">
+      <details key="start" value="3063"/>
+      <details key="end" value="3122"/>
+      <details key="line" value="151"/>
+    </eAnnotations>
+    <eAnnotations source="positions.108" references="/0/getChoreographyContentPy/%/%.4/%">
+      <details key="start" value="3109"/>
+      <details key="end" value="3116"/>
+      <details key="line" value="152"/>
+    </eAnnotations>
+    <eAnnotations source="positions.109" references="/0/getChoreographyContentPy/%/%.4/%.1">
+      <details key="start" value="3066"/>
+      <details key="end" value="3107"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.110" references="/0/getChoreographyContentPy/%/%.4/%.1/currentInstruction">
+      <details key="start" value="3067"/>
+      <details key="end" value="3085"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.111" references="/0/getChoreographyContentPy/%/%.4/%.1/%">
+      <details key="start" value="3098"/>
+      <details key="end" value="3105"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.112" references="/0/getChoreographyContentPy/%/%.5">
+      <details key="start" value="3123"/>
+      <details key="end" value="3124"/>
+      <details key="line" value="154"/>
+    </eAnnotations>
+    <eAnnotations source="positions.113" references="/0/getChoreographyContentPy/%/%.6">
+      <details key="start" value="3125"/>
+      <details key="end" value="3240"/>
+      <details key="line" value="155"/>
+    </eAnnotations>
+    <eAnnotations source="positions.114" references="/0/getChoreographyContentPy/%/%.6/%">
+      <details key="start" value="3173"/>
+      <details key="end" value="3181"/>
+      <details key="line" value="156"/>
+    </eAnnotations>
+    <eAnnotations source="positions.115" references="/0/getChoreographyContentPy/%/%.6/%.1">
+      <details key="start" value="3182"/>
+      <details key="end" value="3230"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.116" references="/0/getChoreographyContentPy/%/%.6/%.1/%">
+      <details key="start" value="3182"/>
+      <details key="end" value="3221"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.117" references="/0/getChoreographyContentPy/%/%.6/%.1/%/currentInstruction">
+      <details key="start" value="3182"/>
+      <details key="end" value="3200"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.118" references="/0/getChoreographyContentPy/%/%.6/%.1/%/%">
+      <details key="start" value="3211"/>
+      <details key="end" value="3220"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.119" references="/0/getChoreographyContentPy/%/%.6/%.2">
+      <details key="start" value="3232"/>
+      <details key="end" value="3234"/>
+      <details key="line" value="156"/>
+    </eAnnotations>
+    <eAnnotations source="positions.120" references="/0/getChoreographyContentPy/%/%.6/%.3">
+      <details key="start" value="3128"/>
+      <details key="end" value="3171"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.121" references="/0/getChoreographyContentPy/%/%.6/%.3/currentInstruction">
+      <details key="start" value="3129"/>
+      <details key="end" value="3147"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.122" references="/0/getChoreographyContentPy/%/%.6/%.3/%">
+      <details key="start" value="3160"/>
+      <details key="end" value="3169"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.123" references="/0/getChoreographyContentPy/%/%.7">
+      <details key="start" value="3241"/>
+      <details key="end" value="3242"/>
+      <details key="line" value="158"/>
+    </eAnnotations>
+    <eAnnotations source="positions.124" references="/0/getChoreographyContentPy/%/%.8">
+      <details key="start" value="3243"/>
+      <details key="end" value="3361"/>
+      <details key="line" value="159"/>
+    </eAnnotations>
+    <eAnnotations source="positions.125" references="/0/getChoreographyContentPy/%/%.8/%">
+      <details key="start" value="3292"/>
+      <details key="end" value="3301"/>
+      <details key="line" value="160"/>
+    </eAnnotations>
+    <eAnnotations source="positions.126" references="/0/getChoreographyContentPy/%/%.8/%.1">
+      <details key="start" value="3302"/>
+      <details key="end" value="3351"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.127" references="/0/getChoreographyContentPy/%/%.8/%.1/%">
+      <details key="start" value="3302"/>
+      <details key="end" value="3342"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.128" references="/0/getChoreographyContentPy/%/%.8/%.1/%/currentInstruction">
+      <details key="start" value="3302"/>
+      <details key="end" value="3320"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.129" references="/0/getChoreographyContentPy/%/%.8/%.1/%/%">
+      <details key="start" value="3331"/>
+      <details key="end" value="3341"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.130" references="/0/getChoreographyContentPy/%/%.8/%.2">
+      <details key="start" value="3353"/>
+      <details key="end" value="3355"/>
+      <details key="line" value="160"/>
+    </eAnnotations>
+    <eAnnotations source="positions.131" references="/0/getChoreographyContentPy/%/%.8/%.3">
+      <details key="start" value="3246"/>
+      <details key="end" value="3290"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.132" references="/0/getChoreographyContentPy/%/%.8/%.3/currentInstruction">
+      <details key="start" value="3247"/>
+      <details key="end" value="3265"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.133" references="/0/getChoreographyContentPy/%/%.8/%.3/%">
+      <details key="start" value="3278"/>
+      <details key="end" value="3288"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.134" references="/0/getChoreographyContentPy/%/%.9">
+      <details key="start" value="3362"/>
+      <details key="end" value="3363"/>
+      <details key="line" value="162"/>
+    </eAnnotations>
+    <eAnnotations source="positions.135" references="/0/getChoreographyContentPy/%/%.10">
+      <details key="start" value="3364"/>
+      <details key="end" value="3471"/>
+      <details key="line" value="163"/>
+    </eAnnotations>
+    <eAnnotations source="positions.136" references="/0/getChoreographyContentPy/%/%.10/%">
+      <details key="start" value="3411"/>
+      <details key="end" value="3416"/>
+      <details key="line" value="164"/>
+    </eAnnotations>
+    <eAnnotations source="positions.137" references="/0/getChoreographyContentPy/%/%.10/%.1">
+      <details key="start" value="3417"/>
+      <details key="end" value="3461"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.138" references="/0/getChoreographyContentPy/%/%.10/%.1/%">
+      <details key="start" value="3417"/>
+      <details key="end" value="3455"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.139" references="/0/getChoreographyContentPy/%/%.10/%.1/%/currentInstruction">
+      <details key="start" value="3417"/>
+      <details key="end" value="3435"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.140" references="/0/getChoreographyContentPy/%/%.10/%.1/%/%">
+      <details key="start" value="3446"/>
+      <details key="end" value="3454"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.141" references="/0/getChoreographyContentPy/%/%.10/%.2">
+      <details key="start" value="3463"/>
+      <details key="end" value="3465"/>
+      <details key="line" value="164"/>
+    </eAnnotations>
+    <eAnnotations source="positions.142" references="/0/getChoreographyContentPy/%/%.10/%.3">
+      <details key="start" value="3367"/>
+      <details key="end" value="3409"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.143" references="/0/getChoreographyContentPy/%/%.10/%.3/currentInstruction">
+      <details key="start" value="3368"/>
+      <details key="end" value="3386"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.144" references="/0/getChoreographyContentPy/%/%.10/%.3/%">
+      <details key="start" value="3399"/>
+      <details key="end" value="3407"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.145" references="/0/getChoreographyContentPy/%/%.11">
+      <details key="start" value="3472"/>
+      <details key="end" value="3473"/>
+      <details key="line" value="166"/>
+    </eAnnotations>
+    <eAnnotations source="positions.146" references="/0/getChoreographyContentPy/%/%.12">
+      <details key="start" value="3474"/>
+      <details key="end" value="3583"/>
+      <details key="line" value="167"/>
+    </eAnnotations>
+    <eAnnotations source="positions.147" references="/0/getChoreographyContentPy/%/%.12/%">
+      <details key="start" value="3522"/>
+      <details key="end" value="3528"/>
+      <details key="line" value="168"/>
+    </eAnnotations>
+    <eAnnotations source="positions.148" references="/0/getChoreographyContentPy/%/%.12/%.1">
+      <details key="start" value="3529"/>
+      <details key="end" value="3573"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.149" references="/0/getChoreographyContentPy/%/%.12/%.1/%">
+      <details key="start" value="3529"/>
+      <details key="end" value="3567"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.150" references="/0/getChoreographyContentPy/%/%.12/%.1/%/currentInstruction">
+      <details key="start" value="3529"/>
+      <details key="end" value="3547"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.151" references="/0/getChoreographyContentPy/%/%.12/%.1/%/%">
+      <details key="start" value="3558"/>
+      <details key="end" value="3566"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.152" references="/0/getChoreographyContentPy/%/%.12/%.2">
+      <details key="start" value="3575"/>
+      <details key="end" value="3577"/>
+      <details key="line" value="168"/>
+    </eAnnotations>
+    <eAnnotations source="positions.153" references="/0/getChoreographyContentPy/%/%.12/%.3">
+      <details key="start" value="3477"/>
+      <details key="end" value="3520"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.154" references="/0/getChoreographyContentPy/%/%.12/%.3/currentInstruction">
+      <details key="start" value="3478"/>
+      <details key="end" value="3496"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.155" references="/0/getChoreographyContentPy/%/%.12/%.3/%">
+      <details key="start" value="3509"/>
+      <details key="end" value="3518"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.156" references="/0/getChoreographyContentPy/%/%.13">
+      <details key="start" value="3584"/>
+      <details key="end" value="3586"/>
+      <details key="line" value="170"/>
+    </eAnnotations>
+    <eAnnotations source="positions.157" references="/0/getChoreographyContentPy/%/currentInstruction">
+      <details key="start" value="2870"/>
+      <details key="end" value="2902"/>
+      <details key="line" value="144"/>
+    </eAnnotations>
+    <eAnnotations source="positions.158" references="/0/getChoreographyContentPy/%/%.14">
+      <details key="start" value="2905"/>
+      <details key="end" value="2925"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.159" references="/0/getChoreographyContentPy/%/%.14/element">
+      <details key="start" value="2905"/>
+      <details key="end" value="2912"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.160" references="/0/getChoreographyContentPy/element">
+      <details key="start" value="2839"/>
+      <details key="end" value="2861"/>
+      <details key="line" value="143"/>
+    </eAnnotations>
+  </ecore:EAnnotation>
+</xmi:XMI>

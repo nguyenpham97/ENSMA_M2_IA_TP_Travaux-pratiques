@@ -1,0 +1,10 @@
+[comment encoding = UTF-8 /]
+[module generate('http://www.ensma.fr/tpidm/robotnxt/0.0.1')]
+
+
+[template public generateElement(aChoreography : Choreography)]
+[comment @main/]
+[file (aChoreography.name, false, 'UTF-8')]
+
+[/file]
+[/template]

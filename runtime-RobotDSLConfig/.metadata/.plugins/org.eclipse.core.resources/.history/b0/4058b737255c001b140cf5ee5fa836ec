@@ -1,0 +1,172 @@
+[comment encoding = UTF-8 /]
+[module generate('http://www.ensma.fr/tpidm/robotnxt/0.0.1')]
+
+
+[template public generateCode(element : Choreography)]
+
+[comment @main /]
+[file ('resultat'.concat('.nxc'), false, 'UTF-8')]
+
+/**
+ * Author : Y&Y
+ */
+
+#include "NXCDefs.h"
+
+// Correponds to D/d
+#define ANGLE_FACTOR 8
+
+// The Motors connections
+#define RIGHT_MOTOR OUT_A
+#define LEFT_MOTOR OUT_B
+#define PEN_MOTOR OUT_C
+
+// define step lenght in wheel rotation (degree)
+#define STEP 50
+
+// define the angle of which the pen motor has to move
+#define PEN_ANGLE 45
+
+// The motor speed to use (not two fast to avoid drifting)
+#define SPEED 50
+
+/**
+ * The Robot will move straight forward for d steps
+ */
+sub forward(int d)
+{
+  int angle = d * STEP;
+  OnFwd(LEFT_MOTOR, SPEED);
+  OnFwd(RIGHT_MOTOR, SPEED);
+  Wait(angle);
+  Off(MOVE_MOTORS);
+}
+
+sub backward(int d)
+{
+  int angle = d * STEP;
+  OnRev(LEFT_MOTOR, SPEED);
+  OnRev(RIGHT_MOTOR, SPEED);
+  Wait(angle);
+  Off(MOVE_MOTORS);
+}
+
+/**
+ * The Robot will turn right by n degree
+ */
+sub turn_right(int n)
+{
+  OnRev(RIGHT_MOTOR, SPEED);
+  OnFwd(LEFT_MOTOR, SPEED);
+  Wait((-n)*ANGLE_FACTOR);
+  Off(MOVE_MOTORS);
+}
+
+/**
+ * The Robot will turn left by n degree
+ */
+sub turn_left(int n)
+{
+  OnRev(LEFT_MOTOR, SPEED);
+  OnFwd(RIGHT_MOTOR, SPEED);
+  Wait((n)*ANGLE_FACTOR);
+  Off(MOVE_MOTORS);
+}
+
+/**
+ * The Pen goes up
+ */
+sub penUp()
+{
+ RotateMotor(PEN_MOTOR, SPEED, -PEN_ANGLE);
+}
+
+/**
+ * The Pen goes down
+ */
+sub penDown()
+{
+ RotateMotor(PEN_MOTOR, SPEED, PEN_ANGLE);
+}
+/************************************************************/
+/*  END OF THE API, THE COMPILED CODE GOES BELOW THIS LINE  */
+/************************************************************/
+
+task main()
+{
+
+[getChoreographyContentnxc(element.oclAsType(Choreography))/]
+
+} // fin main
+
+[/file]	
+
+[file ('resultat'.concat('.py'), false, 'UTF-8')]
+from turtle import *
+[getChoreographyContentPy(element.oclAsType(Choreography))/]
+done()
+[/file]
+
+[/template]
+
+[template private getChoreographyContentnxc(element : Choreography)]
+[for (currentInstruction : Instruction | element.instructions)]
+	[if(currentInstruction.oclIsTypeOf(PenUp))]
+		penUp();
+	[/if]
+	
+		[getChoreographyContentnxc(currentInstruction.oclAsType(Choreography))/]
+
+	[if(currentInstruction.oclIsTypeOf(PenDown))]
+		penDown();
+	[/if]
+
+	[if(currentInstruction.oclIsTypeOf(GoForward))]
+		forward([currentInstruction.oclAsType(GoForward).distance/]);
+	[/if]
+
+	[if(currentInstruction.oclIsTypeOf(GoBackward))]
+		backward([currentInstruction.oclAsType(GoBackward).distance/]);
+	[/if]
+
+	[if(currentInstruction.oclIsTypeOf(TurnLeft))]
+		turn_left([currentInstruction.oclAsType(TurnLeft).angle/]);
+	[/if]
+
+	[if(currentInstruction.oclIsTypeOf(TurnRight))]
+		turn_right([currentInstruction.oclAsType(TurnLeft).angle/]);
+	[/if]
+	
+[/for]
+[/template]
+
+[template private getChoreographyContentPy(element : Choreography)]
+[for (currentInstruction : Instruction | element.instructions)]
+	[if(currentInstruction.oclIsTypeOf(PenUp))]
+penup()
+	[/if]
+
+[getChoreographyContentPy(currentInstruction.oclAsType(Choreography))/]
+
+	[if(currentInstruction.oclIsTypeOf(PenDown))]
+down()
+	[/if]
+
+	[if(currentInstruction.oclIsTypeOf(GoForward))]
+forward([currentInstruction.oclAsType(GoForward).distance/])
+	[/if]
+
+	[if(currentInstruction.oclIsTypeOf(GoBackward))]
+backward([currentInstruction.oclAsType(GoBackward).distance/])
+	[/if]
+
+	[if(currentInstruction.oclIsTypeOf(TurnLeft))]
+left([currentInstruction.oclAsType(TurnLeft).angle/])
+	[/if]
+
+	[if(currentInstruction.oclIsTypeOf(TurnRight))]
+right([currentInstruction.oclAsType(TurnLeft).angle/])
+	[/if]
+	
+[/for]
+[/template]
