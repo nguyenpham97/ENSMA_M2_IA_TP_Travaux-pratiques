@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_T94gYFy3EeuYx_R4ohb5cA" name="orion_DW" id="_JFmvQFy3EeuYx_R4ohb5cA" label="orion_DW" DatabaseType="Oracle with service name" DriverClass="oracle.jdbc.OracleDriver" URL="jdbc:oracle:thin:@(description=(address=(protocol=tcp)(host=)(port=1521))(connect_data=(service_name=)))" dbVersionString="ORACLE_12" Port="1521" Username="system" Password="enc:system.encryption.key.v1:sPd9I4SMrChbmR6Q9IQPVWUr0B9WiNkP7VnSXPGDoco=" ServerName="" DatasourceName="" FileFieldName="" SID="" SqlSynthax="" StringQuote="" NullChar="" DbmsId="oracle_id" ProductId="ORACLE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+  <taggedValue xmi:id="_T94gYVy3EeuYx_R4ohb5cA" tag="Is Conn Need Reload" value="true"/>
+  <parameters xmi:id="_T94gYly3EeuYx_R4ohb5cA" key="CONN_PARA_KEY_USERNAME" value="system"/>
+</TalendMetadata:DatabaseConnection>

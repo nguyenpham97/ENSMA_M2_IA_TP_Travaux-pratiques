@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_OlKaIFy1EeuYx_R4ohb5cA" name="orion_BD" id="__4OEkFy0EeuYx_R4ohb5cA" label="orion_BD" DatabaseType="Access" DriverClass="net.ucanaccess.jdbc.UcanaccessDriver" URL="jdbc:ucanaccess://E:/Documents/Workspace/TP_Donnee/orion.mdb;jackcessOpener=org.talend.ucanaccess.encrypt.CryptCodecOpener;memory=false" Port="" Username="" Password="" ServerName="" DatasourceName="" FileFieldName="E:/Documents/Workspace/TP_Donnee/orion.mdb" SID="" SqlSynthax="" StringQuote="" NullChar="" DbmsId="access_id" ProductId="ACCESS" AdditionalParams="jackcessOpener=org.talend.ucanaccess.encrypt.CryptCodecOpener;memory=false" StandardSQL="true" SQLMode="false" UiSchema="">
+  <taggedValue xmi:id="_OlLBMFy1EeuYx_R4ohb5cA" tag="Is Conn Need Reload" value="true"/>
+  <parameters xmi:id="_OlLBMVy1EeuYx_R4ohb5cA" key="CONN_PARA_KEY_USERNAME" value=""/>
+</TalendMetadata:DatabaseConnection>

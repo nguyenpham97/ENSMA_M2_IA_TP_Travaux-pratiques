@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_T94gYFy3EeuYx_R4ohb5cA" name="orion_DW" id="_JFmvQFy3EeuYx_R4ohb5cA" label="orion_DW" DatabaseType="Oracle with service name" DriverClass="oracle.jdbc.OracleDriver" URL="jdbc:oracle:thin:@(description=(address=(protocol=tcp)(host=)(port=1521))(connect_data=(service_name=)))" dbVersionString="ORACLE_12" Port="1521" Username="system" Password="enc:system.encryption.key.v1:BDRqpZuQW5qDksC9+xRQaywOVmWvaa2UmuozPNxDmeg=" ServerName="" DatasourceName="" FileFieldName="" SID="" SqlSynthax="" StringQuote="" NullChar="" DbmsId="oracle_id" ProductId="ORACLE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+  <taggedValue xmi:id="_T94gYVy3EeuYx_R4ohb5cA" tag="Is Conn Need Reload" value="false"/>
+  <taggedValue xmi:id="_T_GoYFy3EeuYx_R4ohb5cA" tag="package filter" value=""/>
+  <taggedValue xmi:id="_T_HPcFy3EeuYx_R4ohb5cA" tag="Status" value=""/>
+  <taggedValue xmi:id="_T_HPcVy3EeuYx_R4ohb5cA" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_T_HPcly3EeuYx_R4ohb5cA" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_T_HPc1y3EeuYx_R4ohb5cA" tag="Description" value=""/>
+  <taggedValue xmi:id="_T_HPdFy3EeuYx_R4ohb5cA" tag="Author" value=""/>
+  <taggedValue xmi:id="_T_HPdVy3EeuYx_R4ohb5cA" tag="otherParameter"/>
+  <parameters xmi:id="_T94gYly3EeuYx_R4ohb5cA" key="CONN_PARA_KEY_USERNAME" value="system"/>
+</TalendMetadata:DatabaseConnection>
