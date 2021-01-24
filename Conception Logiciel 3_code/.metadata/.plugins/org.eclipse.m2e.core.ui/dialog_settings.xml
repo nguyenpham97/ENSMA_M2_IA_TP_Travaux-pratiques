@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="E:\Documents\Workspace\ENSMA_M2_IA_TP_Travaux-pratiques\Conception Logiciel 3_code"/>
+			<item value="E:\Documents\Workspace\git\ENSMA_TP\MyMultiChat-Server"/>
+			<item value="E:\Documents\Workspace\ENSMA_M2_IA_TP_Travaux-pratiques\Conception Logiciel 3_code\MyMultiChat"/>
 			<item value="E:\Documents\Workspace\TP_CLO3\MyMultiChat"/>
 		</list>
 		<list key="projectNameTemplate">

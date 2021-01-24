@@ -5,7 +5,7 @@
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1610974279031_3" label="MyMultiChat" name="MyMultiChat">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MyMultiChat" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MyMultiChat-Server" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MyMultiChat-API" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MyMultiChat-MessagesAPI" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MyMultiChat-Client" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1610974223781_2" label="Window Working Set" name="Aggregate for window 1610974223780"/>
