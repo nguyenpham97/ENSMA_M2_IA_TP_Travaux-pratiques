@@ -1,9 +1,5 @@
 package fr.ensma.a3.ia.mymultichat.api.entities;
 
-/**
- *
- * @author lammi
- */
 public enum SocketAction {
 
     NEW_USER("newuser");

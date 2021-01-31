@@ -15,10 +15,6 @@ import javax.websocket.Session;
 import org.apache.http.client.utils.URIBuilder;
 import org.glassfish.tyrus.client.ClientManager;
 
-/**
- *
- * @author lammi
- */
 public class ApiManager {
 
     public static ApiManager INSTANCE = new ApiManager();

@@ -3,10 +3,6 @@ package fr.ensma.a3.ia.mymultichat.server.websocket;
 import fr.ensma.a3.ia.mymultichat.api.entities.TurnGame;
 import java.util.Map;
 
-/**
- *
- * @author namhcn
- */
 public class ChanelData {
 
     public static enum StatusChanel {

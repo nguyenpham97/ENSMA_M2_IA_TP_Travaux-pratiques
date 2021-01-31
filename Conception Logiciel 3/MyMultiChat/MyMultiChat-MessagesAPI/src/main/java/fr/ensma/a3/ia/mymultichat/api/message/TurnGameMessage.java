@@ -3,10 +3,6 @@ package fr.ensma.a3.ia.mymultichat.api.message;
 import fr.ensma.a3.ia.mymultichat.api.entities.TurnGame;
 import fr.ensma.a3.ia.mymultichat.api.entities.User;
 
-/**
- *
- * @author lammi
- */
 public class TurnGameMessage extends ClientMessage {
 
     private TurnGame turnGame;

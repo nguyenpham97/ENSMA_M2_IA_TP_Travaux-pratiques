@@ -4,10 +4,6 @@ package fr.ensma.a3.ia.mymultichat.common;
 import java.io.PrintStream;
 import java.util.Scanner;
 
-/**
- *
- * @author lammi
- */
 public class IOAction {
 
     private static final Scanner scan = new Scanner(System.in);

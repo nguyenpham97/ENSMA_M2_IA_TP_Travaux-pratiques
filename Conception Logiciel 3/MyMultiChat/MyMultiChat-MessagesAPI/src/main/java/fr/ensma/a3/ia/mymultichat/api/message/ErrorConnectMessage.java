@@ -1,9 +1,5 @@
 package fr.ensma.a3.ia.mymultichat.api.message;
 
-/**
- *
- * @author lammi
- */
 public class ErrorConnectMessage extends ClientMessage {
 
     public static  enum ERROR_CONNECT {

@@ -2,10 +2,6 @@ package fr.ensma.a3.ia.mymultichat.api.entities;
 
 import java.io.Serializable;
 
-/**
- *
- * @author namhcn
- */
 public class User implements Serializable{
 
     private String userId;

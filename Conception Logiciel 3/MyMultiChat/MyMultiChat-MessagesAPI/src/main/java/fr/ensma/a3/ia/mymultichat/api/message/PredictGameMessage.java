@@ -1,9 +1,5 @@
 package fr.ensma.a3.ia.mymultichat.api.message;
 
-/**
- *
- * @author lammi
- */
 public class PredictGameMessage extends ClientMessage {
 
     private final int predictValue;

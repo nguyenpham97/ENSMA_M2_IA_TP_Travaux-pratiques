@@ -8,10 +8,6 @@ import java.util.List;
 import java.util.Optional;
 import javax.websocket.Session;
 
-/**
- *
- * @author namhcn
- */
 public class Client {
 
     private int registedChanelId;

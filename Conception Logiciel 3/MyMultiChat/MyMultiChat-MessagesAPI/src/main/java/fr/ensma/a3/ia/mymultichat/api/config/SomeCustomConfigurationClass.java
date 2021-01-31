@@ -4,10 +4,6 @@ import javax.websocket.HandshakeResponse;
 import javax.websocket.server.HandshakeRequest;
 import javax.websocket.server.ServerEndpointConfig;
 
-/**
- *
- * @author lammi
- */
 public class SomeCustomConfigurationClass extends ServerEndpointConfig.Configurator {
 
     @Override

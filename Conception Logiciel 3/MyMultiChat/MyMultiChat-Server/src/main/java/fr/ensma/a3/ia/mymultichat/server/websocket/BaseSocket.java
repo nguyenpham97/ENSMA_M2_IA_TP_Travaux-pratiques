@@ -4,10 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.websocket.Session;
 
-/**
- *
- * @author lammi
- */
 public class BaseSocket {
 
     /**

@@ -4,10 +4,6 @@ import java.io.Serializable;
 //import org.apache.commons.lang.math.RandomUtils;
 import org.apache.commons.lang3.RandomUtils;
 
-/**
- *
- * @author namhcn
- */
 public class TurnGame implements Serializable {
 
     public static int MAX_VICTORY_VALUE = 100;

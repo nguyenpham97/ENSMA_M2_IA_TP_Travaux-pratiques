@@ -2,10 +2,6 @@ package fr.ensma.a3.ia.mymultichat.api.message;
 
 import fr.ensma.a3.ia.mymultichat.api.entities.User;
 
-/**
- *
- * @author lammi
- */
 public class DisconectAlertMessage extends ClientMessage {
 
     private final User disconectedUser;
