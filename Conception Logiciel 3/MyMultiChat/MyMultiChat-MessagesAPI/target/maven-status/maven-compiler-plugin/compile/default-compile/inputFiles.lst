@@ -1,0 +1,16 @@
+E:\Documents\Workspace\ENSMA_M2_IA_TP_Travaux-pratiques\Conception Logiciel 3\MyMultiChat\MyMultiChat-MessagesAPI\src\main\java\fr\ensma\a3\ia\mymultichat\api\messageutil\ClientMessageDecoder.java
+E:\Documents\Workspace\ENSMA_M2_IA_TP_Travaux-pratiques\Conception Logiciel 3\MyMultiChat\MyMultiChat-MessagesAPI\src\main\java\fr\ensma\a3\ia\mymultichat\api\message\WelComeMessage.java
+E:\Documents\Workspace\ENSMA_M2_IA_TP_Travaux-pratiques\Conception Logiciel 3\MyMultiChat\MyMultiChat-MessagesAPI\src\main\java\fr\ensma\a3\ia\mymultichat\api\message\ClientMessage.java
+E:\Documents\Workspace\ENSMA_M2_IA_TP_Travaux-pratiques\Conception Logiciel 3\MyMultiChat\MyMultiChat-MessagesAPI\src\main\java\fr\ensma\a3\ia\mymultichat\api\entities\User.java
+E:\Documents\Workspace\ENSMA_M2_IA_TP_Travaux-pratiques\Conception Logiciel 3\MyMultiChat\MyMultiChat-MessagesAPI\src\main\java\fr\ensma\a3\ia\mymultichat\api\message\PredictGameMessage.java
+E:\Documents\Workspace\ENSMA_M2_IA_TP_Travaux-pratiques\Conception Logiciel 3\MyMultiChat\MyMultiChat-MessagesAPI\src\main\java\fr\ensma\a3\ia\mymultichat\api\entities\SocketAction.java
+E:\Documents\Workspace\ENSMA_M2_IA_TP_Travaux-pratiques\Conception Logiciel 3\MyMultiChat\MyMultiChat-MessagesAPI\src\main\java\fr\ensma\a3\ia\mymultichat\api\message\ResultPredictMessage.java
+E:\Documents\Workspace\ENSMA_M2_IA_TP_Travaux-pratiques\Conception Logiciel 3\MyMultiChat\MyMultiChat-MessagesAPI\src\main\java\fr\ensma\a3\ia\mymultichat\api\message\ReadyToStartGameMessage.java
+E:\Documents\Workspace\ENSMA_M2_IA_TP_Travaux-pratiques\Conception Logiciel 3\MyMultiChat\MyMultiChat-MessagesAPI\src\main\java\fr\ensma\a3\ia\mymultichat\api\message\DisconectAlertMessage.java
+E:\Documents\Workspace\ENSMA_M2_IA_TP_Travaux-pratiques\Conception Logiciel 3\MyMultiChat\MyMultiChat-MessagesAPI\src\main\java\fr\ensma\a3\ia\mymultichat\api\message\TurnGameMessage.java
+E:\Documents\Workspace\ENSMA_M2_IA_TP_Travaux-pratiques\Conception Logiciel 3\MyMultiChat\MyMultiChat-MessagesAPI\src\main\java\fr\ensma\a3\ia\mymultichat\api\canal\ChatCanalDesc.java
+E:\Documents\Workspace\ENSMA_M2_IA_TP_Travaux-pratiques\Conception Logiciel 3\MyMultiChat\MyMultiChat-MessagesAPI\src\main\java\fr\ensma\a3\ia\mymultichat\api\config\SomeCustomConfigurationClass.java
+E:\Documents\Workspace\ENSMA_M2_IA_TP_Travaux-pratiques\Conception Logiciel 3\MyMultiChat\MyMultiChat-MessagesAPI\src\main\java\fr\ensma\a3\ia\mymultichat\api\entities\SocketParam.java
+E:\Documents\Workspace\ENSMA_M2_IA_TP_Travaux-pratiques\Conception Logiciel 3\MyMultiChat\MyMultiChat-MessagesAPI\src\main\java\fr\ensma\a3\ia\mymultichat\api\entities\TurnGame.java
+E:\Documents\Workspace\ENSMA_M2_IA_TP_Travaux-pratiques\Conception Logiciel 3\MyMultiChat\MyMultiChat-MessagesAPI\src\main\java\fr\ensma\a3\ia\mymultichat\api\message\ErrorConnectMessage.java
+E:\Documents\Workspace\ENSMA_M2_IA_TP_Travaux-pratiques\Conception Logiciel 3\MyMultiChat\MyMultiChat-MessagesAPI\src\main\java\fr\ensma\a3\ia\mymultichat\api\messageutil\ClientMessageEncoder.java

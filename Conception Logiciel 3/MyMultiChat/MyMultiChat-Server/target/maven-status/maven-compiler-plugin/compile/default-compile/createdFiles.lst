@@ -1,0 +1,8 @@
+fr\ensma\a3\ia\mymultichat\server\websocket\ConnectSocketObject.class
+fr\ensma\a3\ia\mymultichat\server\business\ChatCanalAdmin.class
+fr\ensma\a3\ia\mymultichat\server\websocket\ChanelData$StatusChanel.class
+fr\ensma\a3\ia\mymultichat\server\rest\MultiChatServicesApp.class
+fr\ensma\a3\ia\mymultichat\server\websocket\ChanelData.class
+fr\ensma\a3\ia\mymultichat\server\rest\MultiChatServices.class
+fr\ensma\a3\ia\mymultichat\server\websocket\BaseSocket.class
+fr\ensma\a3\ia\mymultichat\server\websocket\MultiChatServerEndPoint.class
